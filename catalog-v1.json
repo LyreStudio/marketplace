@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "revision": 2026091001,
+  "offerings": [
+    {
+      "id": "stockroom",
+      "title": "Stockroom",
+      "summary": "A practical inventory workspace for small studios and independent shops.",
+      "category": "Inventory",
+      "status": "listed",
+      "features": [
+        "Item quantities and unit costs",
+        "Low-stock overview",
+        "Search, categories and JSON backups"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/stockroom",
+      "previewUrl": "https://lyrestudio.github.io/stockroom/",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/stockroom/9968817aa46e6ec06201252bbd035c4c821eef4a/screenshots/desktop.png"
+    },
+    {
+      "id": "project-desk",
+      "title": "Project Desk",
+      "summary": "A focused task board for freelancers and small project workflows.",
+      "category": "Client Tools",
+      "status": "listed",
+      "features": [
+        "Task board with status and due dates",
+        "Project filters and editable notes",
+        "Local persistence and JSON backups"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/project-desk",
+      "previewUrl": "https://lyrestudio.github.io/project-desk/",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/project-desk/4d4923e6788d68d1a7a60f842b20b4daa8e13b54/screenshots/desktop.png"
+    },
+    {
+      "id": "daybook",
+      "title": "Daybook",
+      "summary": "A quiet place for daily plans, useful notes and ideas worth keeping.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Daily plans, notes and pinned ideas",
+        "Notebook filters and search",
+        "Local persistence and JSON backups"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/daybook",
+      "previewUrl": "https://lyrestudio.github.io/daybook/",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/daybook/03555d5d1111e9dc5d4af34da5770e49f24ac69a/screenshots/desktop.png"
+    }
+  ]
+}
