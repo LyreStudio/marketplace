@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2026091001,
+  "revision": 2026091002,
   "offerings": [
     {
       "id": "stockroom",
@@ -15,7 +15,9 @@
       ],
       "repositoryUrl": "https://github.com/LyreStudio/stockroom",
       "previewUrl": "https://lyrestudio.github.io/stockroom/",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/stockroom/9968817aa46e6ec06201252bbd035c4c821eef4a/screenshots/desktop.png"
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/stockroom/9968817aa46e6ec06201252bbd035c4c821eef4a/screenshots/desktop.png",
+      "platform": "web",
+      "license": "MIT"
     },
     {
       "id": "project-desk",
@@ -30,7 +32,9 @@
       ],
       "repositoryUrl": "https://github.com/LyreStudio/project-desk",
       "previewUrl": "https://lyrestudio.github.io/project-desk/",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/project-desk/4d4923e6788d68d1a7a60f842b20b4daa8e13b54/screenshots/desktop.png"
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/project-desk/4d4923e6788d68d1a7a60f842b20b4daa8e13b54/screenshots/desktop.png",
+      "platform": "web",
+      "license": "MIT"
     },
     {
       "id": "daybook",
@@ -45,7 +49,64 @@
       ],
       "repositoryUrl": "https://github.com/LyreStudio/daybook",
       "previewUrl": "https://lyrestudio.github.io/daybook/",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/daybook/03555d5d1111e9dc5d4af34da5770e49f24ac69a/screenshots/desktop.png"
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/daybook/03555d5d1111e9dc5d4af34da5770e49f24ac69a/screenshots/desktop.png",
+      "platform": "web",
+      "license": "MIT"
+    },
+    {
+      "id": "ordinary-puzzles",
+      "title": "Ordinary Puzzles",
+      "summary": "A complete mobile logic-puzzle game with touch controls, progress tracking and multiple difficulty levels.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "React Native / Expo · iOS and Android",
+        "Touch-driven puzzles and saved progress",
+        "Established upstream mobile releases"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/ordinary-puzzles",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/ordinary-puzzles/b1751de4c0651e17eee7a19c55c4dee44b48e245/screenshots/mobile.png",
+      "platform": "mobile",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/ordinary-puzzles/blob/b1751de4c0651e17eee7a19c55c4dee44b48e245/LYRE-MARKETPLACE.md",
+      "appStoreUrl": "https://apps.apple.com/us/app/ordinary-puzzles/id1489599807",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mmazzarolo.ordinarypuzzles"
+    },
+    {
+      "id": "breathly",
+      "title": "Breathly",
+      "summary": "A native guided-breathing app with animated exercises, session controls and customizable timing.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "React Native / Expo · iOS and Android",
+        "Guided breathing animation and session controls",
+        "Customizable techniques and on-device preferences"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/breathly",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/breathly/948fa668eb2d5dc27212c4350a9bbe204e11b69e/screenshots/mobile.png",
+      "platform": "mobile",
+      "license": "MPL-2.0",
+      "setupUrl": "https://github.com/LyreStudio/breathly/blob/948fa668eb2d5dc27212c4350a9bbe204e11b69e/LYRE-MARKETPLACE.md",
+      "appStoreUrl": "https://apps.apple.com/us/app/breathly/id1454852966",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mmazzarolo.breathly"
+    },
+    {
+      "id": "habit-tracker",
+      "title": "Habit Tracker",
+      "summary": "An Expo mobile starter for daily habits, progress heatmaps and offline SQLite storage.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "React Native / Expo · iOS and Android source",
+        "Create, edit, archive and reorder habits",
+        "Daily, weekly and monthly progress views"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/habit-tracker",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/habit-tracker/850abbdd7f10b6bca762035e36f4a7daa8cebf25/screenshots/mobile.png",
+      "platform": "mobile",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/habit-tracker/blob/850abbdd7f10b6bca762035e36f4a7daa8cebf25/LYRE-MARKETPLACE.md"
     }
   ]
 }

@@ -1,7 +1,9 @@
 # Lyre Marketplace
 
-Public, reviewed metadata for three standalone MIT-licensed browser apps. This repository contains no Lyre desktop/phone source or credentials.
+Public catalog for three browser apps and three attributed React Native / Expo mobile source forks. No private Lyre source or credentials.
 
-The v1 JSON catalog includes optional allowlisted public repository, browser app and immutable screenshot URLs. These fields require the updated foundation marketplace validator; older strict validators will reject them safely. Explicit Supabase catalog configurations retain their own publication and do not automatically switch to this feed.
+Mobile: [Ordinary Puzzles](https://github.com/LyreStudio/ordinary-puzzles), [Breathly](https://github.com/LyreStudio/breathly), [Habit Tracker](https://github.com/LyreStudio/habit-tracker). Setup guides record original licenses, source checkpoints, platform requirements and limits. Ordinary Puzzles and Breathly store links are the original publishers' releases; Habit Tracker is a younger mobile starter without a verified store listing.
 
-App installation is separate. Open the browser apps or clone their individual public repositories. Data stays in browser storage; use exported backups. The linked repositories contain licenses, template provenance and validation records.
+All screenshots are commit-pinned. Mobile screenshot artwork is attributed upstream; browser screenshots were captured from the implemented apps.
+
+The v1 feed revision 2026091002 adds optional platform/license/setup/store fields. Updated foundation validation is required; older strict parsers reject unknown fields. Explicit Supabase catalog configurations retain their separately administered feed. No marketplace installation or native compatibility is implied.
