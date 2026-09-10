@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2026091002,
+  "revision": 2026091003,
   "offerings": [
     {
       "id": "stockroom",
@@ -107,6 +107,74 @@
       "platform": "mobile",
       "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/habit-tracker/blob/850abbdd7f10b6bca762035e36f4a7daa8cebf25/LYRE-MARKETPLACE.md"
+    },
+    {
+      "id": "medusa-dtc",
+      "title": "Medusa DTC",
+      "summary": "Retail storefront with products, variants, cart and customer accounts. Requires a configured Medusa backend and database.",
+      "category": "Operations",
+      "status": "listed",
+      "features": [
+        "Product catalog and variants",
+        "Cart and checkout source",
+        "Backend setup required"
+      ],
+      "repositoryUrl": "https://github.com/medusajs/dtc-starter",
+      "setupUrl": "https://github.com/medusajs/dtc-starter/blob/19e8a6fbefea5a385e9502409908bfbebbecf526/README.md",
+      "platform": "web",
+      "kind": "template",
+      "license": "MIT"
+    },
+    {
+      "id": "medusa-b2b",
+      "title": "Medusa B2B",
+      "summary": "Wholesale and business purchasing starter. Requires business configuration, a Medusa backend and database.",
+      "category": "Operations",
+      "status": "listed",
+      "features": [
+        "Business purchasing starter",
+        "Editable storefront source",
+        "Backend setup required"
+      ],
+      "repositoryUrl": "https://github.com/medusajs/b2b-starter",
+      "setupUrl": "https://github.com/medusajs/b2b-starter/blob/6f7df8391452f4eebddb60f3bc720532dfb680b2/README.md",
+      "platform": "web",
+      "kind": "template",
+      "license": "MIT"
+    },
+    {
+      "id": "vendure-storefront",
+      "title": "Vendure Storefront",
+      "summary": "A filterable product storefront with collections, variants and localization. Requires a running Vendure Shop API.",
+      "category": "Operations",
+      "status": "listed",
+      "features": [
+        "Product search and filters",
+        "Variants and localization",
+        "Vendure API required"
+      ],
+      "repositoryUrl": "https://github.com/vendurehq/tanstack-starter-vendure",
+      "setupUrl": "https://github.com/vendurehq/tanstack-starter-vendure/blob/2cc5139f09c325dd063e8b38e29fe21a6db1380c/README.md",
+      "platform": "web",
+      "kind": "template",
+      "license": "MIT"
+    },
+    {
+      "id": "mercur-marketplace",
+      "title": "Mercur Marketplace",
+      "summary": "Multi-vendor marketplace core with seller and operator tools. Commerce infrastructure is required; paid Enterprise modules are separate.",
+      "category": "Operations",
+      "status": "listed",
+      "features": [
+        "Multi-vendor catalog source",
+        "Seller and admin tools",
+        "MIT core; Enterprise separate"
+      ],
+      "repositoryUrl": "https://github.com/mercurjs/mercur",
+      "setupUrl": "https://github.com/mercurjs/mercur/blob/6c049711c8989c861894d6bdf4701192d7b5e89a/README.md",
+      "platform": "web",
+      "kind": "template",
+      "license": "MIT"
     }
   ]
 }
