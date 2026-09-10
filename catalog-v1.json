@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2026091003,
+  "revision": 2026091004,
   "offerings": [
     {
       "id": "stockroom",
@@ -123,7 +123,8 @@
       "setupUrl": "https://github.com/medusajs/dtc-starter/blob/19e8a6fbefea5a385e9502409908bfbebbecf526/README.md",
       "platform": "web",
       "kind": "template",
-      "license": "MIT"
+      "license": "MIT",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/medusa-dtc.png"
     },
     {
       "id": "medusa-b2b",
@@ -140,7 +141,8 @@
       "setupUrl": "https://github.com/medusajs/b2b-starter/blob/6f7df8391452f4eebddb60f3bc720532dfb680b2/README.md",
       "platform": "web",
       "kind": "template",
-      "license": "MIT"
+      "license": "MIT",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/medusa-b2b.png"
     },
     {
       "id": "vendure-storefront",
@@ -157,7 +159,8 @@
       "setupUrl": "https://github.com/vendurehq/tanstack-starter-vendure/blob/2cc5139f09c325dd063e8b38e29fe21a6db1380c/README.md",
       "platform": "web",
       "kind": "template",
-      "license": "MIT"
+      "license": "MIT",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/vendure-storefront.png"
     },
     {
       "id": "mercur-marketplace",
@@ -174,7 +177,8 @@
       "setupUrl": "https://github.com/mercurjs/mercur/blob/6c049711c8989c861894d6bdf4701192d7b5e89a/README.md",
       "platform": "web",
       "kind": "template",
-      "license": "MIT"
+      "license": "MIT",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/mercur-marketplace.png"
     }
   ]
 }
