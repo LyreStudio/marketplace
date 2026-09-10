@@ -1,5 +1,8 @@
 # Lyre Marketplace
 
+[Business catalog and marketplace references](business-catalogs.md) ·
+[Submit a community extension](https://github.com/LyreStudio/extensions)
+
 Public, reviewed metadata for standalone browser apps and attributed React Native / Expo mobile source forks.
 
 Mobile: [Ordinary Puzzles](https://github.com/LyreStudio/ordinary-puzzles), [Breathly](https://github.com/LyreStudio/breathly), [Habit Tracker](https://github.com/LyreStudio/habit-tracker). Setup guides record original licenses, source checkpoints, platform requirements and limits. Ordinary Puzzles and Breathly store links are the original publishers' releases; Habit Tracker is a younger mobile starter without a verified store listing.
