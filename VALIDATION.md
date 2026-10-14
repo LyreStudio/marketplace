@@ -5,6 +5,13 @@ existing browser apps. The source repositories and their Pages demos were
 published before the listings. Exact source commits, download URLs, archive
 SHA-256 and upstream provenance are in [templates.json](templates.json).
 
+
+## Preview compatibility follow-up
+
+Revision 2026101402 supersedes the initial 2026101401 publication at commit 378842615085f40c5e38bf73772e48859f61fb12. The to-do list and drawing pad are now version 1.0.1: in-page task actions and an HTML clear-confirmation dialog work inside Lyre’s unchanged web sandbox. Both live Pages apps passed task Add/Enter/complete/delete and drawing/PNG download/Cancel/Clear under the existing allow-scripts, allow-same-origin, allow-downloads policy. No forms or native-modal permission was added. Final standalone behavior, source extraction and server checks were rerun for those two changed inputs; the other ten templates reuse their unchanged evidence.
+
+The source integration also passed a rebuilt Electron feature/sandbox-preload harness with fifteen live entries, eligible recipes and foreign-window denial. This remains feature qualification, not full renderer, native folder-picker or signed-release acceptance.
+
 ## Verified preparation
 
 - Ten Start Bootstrap templates: actual MIT licenses and pinned upstream archive
@@ -59,13 +66,13 @@ not relaxed.
 
 ## Feed compatibility and limits
 
-Data revision `2026101401` prepares fifteen v2 listings and three v1 listings.
+Data revision `2026101402` prepares fifteen v2 listings and three v1 listings.
 Prepared SHA-256:
 
 | Artifact | SHA-256 |
 | --- | --- |
-| catalog-v1.json | `a8c6524a1021a4ea1bcacaed721478a5c34942a266b0dab814a0c26b8854f4e6` |
-| catalog-v2.json | `af899d42a394afd1f21ded51b9c9c74e6a51beea8ff5c7ac51ba21855cd2d861` |
+| catalog-v1.json | `53420a3db51bf178cdef9e53c8aa0f579cec9bc8849c51922e48d70dd480cb40` |
+| catalog-v2.json | `b62c62ef494dc5225026756157cc0737f255c83a1a09ba46aa5108f0daa85208` |
 
 Run `node verify.mjs` for local publication records, or `node verify.mjs --online`
 to recheck live project demos and archive hashes. Lyre's independent feed

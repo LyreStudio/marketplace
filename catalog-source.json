@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2026101401,
+  "revision": 2026101402,
   "offerings": [
     {
       "id": "stockroom",
@@ -247,8 +247,8 @@
       ],
       "previewUrl": "https://lyrestudio.github.io/todo-list/",
       "repositoryUrl": "https://github.com/LyreStudio/todo-list",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/todo-list/0a45ee5bacc52ea76eda306b5e4b2fc2287ec68a/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/todo-list/blob/0a45ee5bacc52ea76eda306b5e4b2fc2287ec68a/README.md",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/todo-list/738dfbedada82ad7d7de99bf34fcfb7f15893e46/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/todo-list/blob/738dfbedada82ad7d7de99bf34fcfb7f15893e46/README.md",
       "license": "MIT"
     },
     {
@@ -265,8 +265,8 @@
       ],
       "previewUrl": "https://lyrestudio.github.io/drawing-app/",
       "repositoryUrl": "https://github.com/LyreStudio/drawing-app",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/drawing-app/43db239acd73c83634df172562caa78605845d7f/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/drawing-app/blob/43db239acd73c83634df172562caa78605845d7f/README.md",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/drawing-app/5d46ce033e422d3cea8ca9e62d4ec4e82d93fe70/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/drawing-app/blob/5d46ce033e422d3cea8ca9e62d4ec4e82d93fe70/README.md",
       "license": "MIT"
     }
   ]

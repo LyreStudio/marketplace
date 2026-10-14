@@ -18,8 +18,8 @@ Ten prepared websites adapt individually verified free [Start Bootstrap](https:/
 | [Admin dashboard](https://lyrestudio.github.io/admin-dashboard/) | [ZIP](https://codeload.github.com/LyreStudio/admin-dashboard/zip/f82114ab77db7adef376c1b00210d2f849d4bc5d) | `https://github.com/LyreStudio/admin-dashboard.git` |
 | [Product landing page](https://lyrestudio.github.io/landing-page/) | [ZIP](https://codeload.github.com/LyreStudio/landing-page/zip/bf272eaf13ac281884af6c8f2bc1848b3b0f4372) | `https://github.com/LyreStudio/landing-page.git` |
 | [Grayscale website](https://lyrestudio.github.io/grayscale-site/) | [ZIP](https://codeload.github.com/LyreStudio/grayscale-site/zip/b520ddf8cf50b2075a08954d69bb895aeb3a8e0c) | `https://github.com/LyreStudio/grayscale-site.git` |
-| [To-do list](https://lyrestudio.github.io/todo-list/) | [ZIP](https://codeload.github.com/LyreStudio/todo-list/zip/0a45ee5bacc52ea76eda306b5e4b2fc2287ec68a) | `https://github.com/LyreStudio/todo-list.git` |
-| [Drawing pad](https://lyrestudio.github.io/drawing-app/) | [ZIP](https://codeload.github.com/LyreStudio/drawing-app/zip/43db239acd73c83634df172562caa78605845d7f) | `https://github.com/LyreStudio/drawing-app.git` |
+| [To-do list](https://lyrestudio.github.io/todo-list/) | [ZIP](https://codeload.github.com/LyreStudio/todo-list/zip/738dfbedada82ad7d7de99bf34fcfb7f15893e46) | `https://github.com/LyreStudio/todo-list.git` |
+| [Drawing pad](https://lyrestudio.github.io/drawing-app/) | [ZIP](https://codeload.github.com/LyreStudio/drawing-app/zip/5d46ce033e422d3cea8ca9e62d4ec4e82d93fe70) | `https://github.com/LyreStudio/drawing-app.git` |
 
 In a Lyre version containing the reviewed recipe, Marketplace → template → **Choose folder & install** prepares the local runtime and opens the project. Existing releases can use **Add project → Clone repository** or download and add the folder; compiled recipes require an app update. Explicit Supabase catalog configurations retain their separately administered feed.
 
@@ -33,7 +33,7 @@ Each prepared template keeps its original MIT license, upstream commit and archi
 
 ## Feed compatibility
 
-`catalog-v2.json` revision 2026101401 contains the three existing browser apps plus twelve prepared projects. `catalog-v1.json` retains only Stockroom, Project Desk and Daybook for older strict clients. `catalog-source.json` is the reviewed input; templates.json is public download/provenance metadata, never executable Lyre configuration. Catalog data cannot supply installation commands, source pins or permissions.
+`catalog-v2.json` revision 2026101402 contains the three existing browser apps plus twelve prepared projects. `catalog-v1.json` retains only Stockroom, Project Desk and Daybook for older strict clients. `catalog-source.json` is the reviewed input; templates.json is public download/provenance metadata, never executable Lyre configuration. Catalog data cannot supply installation commands, source pins or permissions.
 
 The older native source forks remain reachable: [Ordinary Puzzles](https://github.com/LyreStudio/ordinary-puzzles) (MIT), [Breathly](https://github.com/LyreStudio/breathly) (MPL-2.0) and [Habit Tracker](https://github.com/LyreStudio/habit-tracker) (MIT). Their native SDK, setup and validation limits remain in their guides. They are not added to the current app-project feed by this change.
 
