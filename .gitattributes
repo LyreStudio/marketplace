@@ -1,0 +1,2 @@
+# Adapter pins cover exact file bytes on every platform.
+adapters/** text eol=lf
