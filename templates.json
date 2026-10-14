@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-14",
+  "templates": [
+    {
+      "id": "agency-site",
+      "title": "Agency website",
+      "summary": "A responsive agency website with services, project modals, a team section and sample contact form.",
+      "category": "Client Tools",
+      "features": [
+        "Services and project gallery",
+        "Team and company timeline",
+        "Sample contact form; no email service"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/agency-site",
+      "cloneUrl": "https://github.com/LyreStudio/agency-site.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/agency-site/zip/5961375a5702c38b044f14fcc1b56e2593774901",
+      "previewUrl": "https://lyrestudio.github.io/agency-site/",
+      "commit": "5961375a5702c38b044f14fcc1b56e2593774901",
+      "sha256": "22e756aaeef5031efd9456fe6ff81d629164cfb4469cf7ad7ed06951a4f1fb9a",
+      "bytes": 556018,
+      "upstreamRepository": "StartBootstrap/startbootstrap-agency",
+      "upstreamCommit": "b2d5d5c6b1396bc5b0e8dd92c693b106cfb7cee1",
+      "upstreamSha256": "5334263392681b157e747b6d78d30e7eed93882f646726802827c28c71e91d74",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "freelancer-portfolio",
+      "title": "Freelancer portfolio",
+      "summary": "A one-page portfolio with a project gallery, detail modals and an about section.",
+      "category": "Client Tools",
+      "features": [
+        "Responsive portfolio grid",
+        "Project detail modals",
+        "Sample contact form; no email service"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/freelancer-portfolio",
+      "cloneUrl": "https://github.com/LyreStudio/freelancer-portfolio.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/freelancer-portfolio/zip/d17f1209c0b98041b93dcf3691f1d0aa4d388d3f",
+      "previewUrl": "https://lyrestudio.github.io/freelancer-portfolio/",
+      "commit": "d17f1209c0b98041b93dcf3691f1d0aa4d388d3f",
+      "sha256": "95a47107bc4a995410c57c8291eebd388615b5348917a5d37fd58d8cd0a3cd8e",
+      "bytes": 197887,
+      "upstreamRepository": "StartBootstrap/startbootstrap-freelancer",
+      "upstreamCommit": "5bc65b4bd01e4ab63186395d5f95c7fdaa26216d",
+      "upstreamSha256": "78ab3d4092f2b9d50f992eca280be709eab1aec23c983a6fa9fa11efeab4059a",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "creative-site",
+      "title": "Creative studio website",
+      "summary": "A studio or small-business website with a full-width introduction and a lightbox project gallery.",
+      "category": "Client Tools",
+      "features": [
+        "Responsive studio landing page",
+        "Project image lightbox",
+        "Sample contact form; no email service"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/creative-site",
+      "cloneUrl": "https://github.com/LyreStudio/creative-site.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/creative-site/zip/e81f16b06c4a0cc2f68634d3936b06cf5d5e4917",
+      "previewUrl": "https://lyrestudio.github.io/creative-site/",
+      "commit": "e81f16b06c4a0cc2f68634d3936b06cf5d5e4917",
+      "sha256": "36e9b4150f7d97a127fdfd5cf1393dcc674963ca5c07efbe6704cf9ac40bf19d",
+      "bytes": 455607,
+      "upstreamRepository": "StartBootstrap/startbootstrap-creative",
+      "upstreamCommit": "b1762d8c690a2379c078c776dc0830bdd81c6f55",
+      "upstreamSha256": "085435879015b0afe2b2adb4bdcd1226aa9cd4ac6e72e979c48e35e190875eef",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "resume-site",
+      "title": "Resume website",
+      "summary": "An editable resume website with experience, education, skills and anchored section navigation.",
+      "category": "Personal Productivity",
+      "features": [
+        "Experience and education sections",
+        "Mobile navigation",
+        "Editable HTML resume; no account needed"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/resume-site",
+      "cloneUrl": "https://github.com/LyreStudio/resume-site.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/resume-site/zip/e91e5695cbde6d2778e13731f4c283f73ac2210e",
+      "previewUrl": "https://lyrestudio.github.io/resume-site/",
+      "commit": "e91e5695cbde6d2778e13731f4c283f73ac2210e",
+      "sha256": "e6a18abf81017c490bf6f419fda68bc3791c4d8fa2127315a13291599eb1aec9",
+      "bytes": 154822,
+      "upstreamRepository": "StartBootstrap/startbootstrap-resume",
+      "upstreamCommit": "c6fbe5ef431642984d0f17960194632f20cf67bc",
+      "upstreamSha256": "1d4d4f279f4023191e81951b79d316a3b058384af4edf0c353667ea7beeef1fd",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "clean-blog",
+      "title": "Clean Blog",
+      "summary": "A multi-page blog website with home, about, article and sample contact pages. Edit posts as HTML.",
+      "category": "Personal Productivity",
+      "features": [
+        "Home, article and about pages",
+        "Responsive article typography",
+        "Static HTML posts; no CMS or email service"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/clean-blog",
+      "cloneUrl": "https://github.com/LyreStudio/clean-blog.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/clean-blog/zip/3c27f181884f77807398362ec2352a2401bd539a",
+      "previewUrl": "https://lyrestudio.github.io/clean-blog/",
+      "commit": "3c27f181884f77807398362ec2352a2401bd539a",
+      "sha256": "77a578cc47659209eaad7ee679d575cec5d324b6d25acfaee64997c5fc18abbf",
+      "bytes": 352544,
+      "upstreamRepository": "StartBootstrap/startbootstrap-clean-blog",
+      "upstreamCommit": "1ebc4f8f3b6194335df237a2a7837955a5a4a9aa",
+      "upstreamSha256": "ccf27cf6095db641cbb17bd76c1410c813ab70b173378d2dfd04743c0b30e629",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "business-frontpage",
+      "title": "Business website",
+      "summary": "A small-business website with service cards, sample pricing, testimonials and a sample contact form.",
+      "category": "Client Tools",
+      "features": [
+        "Service and pricing sections",
+        "Responsive business layout",
+        "Sample contact form; no email service"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/business-frontpage",
+      "cloneUrl": "https://github.com/LyreStudio/business-frontpage.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/business-frontpage/zip/89183d158d61bf257dbb216922273476db8ba165",
+      "previewUrl": "https://lyrestudio.github.io/business-frontpage/",
+      "commit": "89183d158d61bf257dbb216922273476db8ba165",
+      "sha256": "a731f708ea50ff1f658ca1f55d097d37c9f878dfe2dde6fc3aa493baaae83250",
+      "bytes": 122689,
+      "upstreamRepository": "StartBootstrap/startbootstrap-business-frontpage",
+      "upstreamCommit": "b330ff68d31fca0950dcce5687796d71432fbd5f",
+      "upstreamSha256": "bef5e7cfdef05444956f88e339d362671208c71dd2496578279be3e4c1f07422",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "shop-homepage",
+      "title": "Shop storefront",
+      "summary": "A responsive storefront UI with a product grid and navigation. Checkout and inventory need a backend.",
+      "category": "Prototypes",
+      "features": [
+        "Responsive product grid",
+        "Shop navigation and sample prices",
+        "Storefront UI only; no checkout or inventory"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/shop-homepage",
+      "cloneUrl": "https://github.com/LyreStudio/shop-homepage.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/shop-homepage/zip/fa748ac8248e118eded2fcb3614199ea4f65a71c",
+      "previewUrl": "https://lyrestudio.github.io/shop-homepage/",
+      "commit": "fa748ac8248e118eded2fcb3614199ea4f65a71c",
+      "sha256": "236d7123571ea30821c8379723ff5dddd2fdc64b8696ddd4fcc17f86667e200e",
+      "bytes": 226998,
+      "upstreamRepository": "StartBootstrap/startbootstrap-shop-homepage",
+      "upstreamCommit": "fb3a49020b840cdbcb0a588fdbda8fc019710a6f",
+      "upstreamSha256": "3aa0479d8fd126b5aa65aeb74c615095ab1530b6660e41cbdaa70ba2b296b61b",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "admin-dashboard",
+      "title": "Admin dashboard",
+      "summary": "A multi-page dashboard UI with sample tables, charts and account screens. It has no authentication backend.",
+      "category": "Operations",
+      "features": [
+        "Dashboard and sample data tables",
+        "Responsive sidebar and account page layouts",
+        "UI only; no authentication or live business data"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/admin-dashboard",
+      "cloneUrl": "https://github.com/LyreStudio/admin-dashboard.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/admin-dashboard/zip/f82114ab77db7adef376c1b00210d2f849d4bc5d",
+      "previewUrl": "https://lyrestudio.github.io/admin-dashboard/",
+      "commit": "f82114ab77db7adef376c1b00210d2f849d4bc5d",
+      "sha256": "201804b6e990f62766ba088ef133cbc2758d0d9884f26e317bdd337dac1168bc",
+      "bytes": 178609,
+      "upstreamRepository": "StartBootstrap/startbootstrap-sb-admin",
+      "upstreamCommit": "adde34b9616b9840c4da756323131f59ac445090",
+      "upstreamSha256": "0aca1517e8ecfa8737b7d067d5ab0a6f3c9f33264e35ee4d4cfe24def903b445",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "landing-page",
+      "title": "Product landing page",
+      "summary": "A product landing page with feature sections and sample signup forms, ready for your content.",
+      "category": "Prototypes",
+      "features": [
+        "Feature and showcase sections",
+        "Responsive product landing page",
+        "Sample signup forms; no mailing-list service"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/landing-page",
+      "cloneUrl": "https://github.com/LyreStudio/landing-page.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/landing-page/zip/bf272eaf13ac281884af6c8f2bc1848b3b0f4372",
+      "previewUrl": "https://lyrestudio.github.io/landing-page/",
+      "commit": "bf272eaf13ac281884af6c8f2bc1848b3b0f4372",
+      "sha256": "18408052abd75520b4aa77c23899bcda7e3d370518649351eda7f9e6b34be87e",
+      "bytes": 339240,
+      "upstreamRepository": "StartBootstrap/startbootstrap-landing-page",
+      "upstreamCommit": "247a46a2503c91d1157179eab297953438ec498b",
+      "upstreamSha256": "28fe466629f898ceaba8ae99bc65825d74084ffcbc84cdf3df7aa2a61109ef4e",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "grayscale-site",
+      "title": "Grayscale website",
+      "summary": "A dark one-page website with project sections and a sample signup form for a product or creative project.",
+      "category": "Prototypes",
+      "features": [
+        "Dark responsive landing page",
+        "Project and contact sections",
+        "Sample signup form; no mailing-list service"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/grayscale-site",
+      "cloneUrl": "https://github.com/LyreStudio/grayscale-site.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/grayscale-site/zip/b520ddf8cf50b2075a08954d69bb895aeb3a8e0c",
+      "previewUrl": "https://lyrestudio.github.io/grayscale-site/",
+      "commit": "b520ddf8cf50b2075a08954d69bb895aeb3a8e0c",
+      "sha256": "fb6143d4d2276311d0bf97039df9dfcc1d4533d71b4057131345fd60889b4a75",
+      "bytes": 519959,
+      "upstreamRepository": "StartBootstrap/startbootstrap-grayscale",
+      "upstreamCommit": "d974402542d05abcbaa8d21d4dd78e53680f2edd",
+      "upstreamSha256": "c510d8775b2bfdd5e9921f6ed157fd6226b70476d7f577f9bbd19fbec555e14e",
+      "upstreamFiles": null,
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Editable static website/UI; backend services are not included"
+    },
+    {
+      "id": "todo-list",
+      "title": "To-do list",
+      "summary": "A working browser task list. Add, complete and delete tasks; changes are saved in this browser without an account.",
+      "category": "Personal Productivity",
+      "features": [
+        "Add, complete and delete tasks",
+        "Browser-local saving with storage error feedback",
+        "Touch and keyboard controls; no account"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/todo-list",
+      "cloneUrl": "https://github.com/LyreStudio/todo-list.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/todo-list/zip/0a45ee5bacc52ea76eda306b5e4b2fc2287ec68a",
+      "previewUrl": "https://lyrestudio.github.io/todo-list/",
+      "commit": "0a45ee5bacc52ea76eda306b5e4b2fc2287ec68a",
+      "sha256": "26dcb8c3f9c09b3ee6400a538c4b4920336ecd50981197d79a8114bebca28b0f",
+      "bytes": 55141,
+      "upstreamRepository": "bradtraversy/50projects50days",
+      "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
+      "upstreamSha256": null,
+      "upstreamFiles": [
+        {
+          "path": "todo-list/index.html",
+          "bytes": 577,
+          "sha256": "3f4fc0aa6dd06816c0ce255265dfc03ce7b154ff762661690736e9624ad349d1"
+        },
+        {
+          "path": "todo-list/style.css",
+          "bytes": 1086,
+          "sha256": "4803a1c13c2d29003eca0ac908247b592acdbcc959a0915e90761c48d0466043"
+        },
+        {
+          "path": "todo-list/script.js",
+          "bytes": 1344,
+          "sha256": "c6e63a38b15bc9c59a34dbafb514b315b7c59d2d3005e681fe3e2319fc3696c2"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450"
+        }
+      ],
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Working local browser app; no account or sync"
+    },
+    {
+      "id": "drawing-app",
+      "title": "Drawing pad",
+      "summary": "A working drawing canvas with pen size, color, clear and PNG export. Drawings stay on this device and are not autosaved.",
+      "category": "Prototypes",
+      "features": [
+        "Mouse, pen and touch drawing",
+        "Choose colors and pen size",
+        "Clear the canvas or save a PNG; no account"
+      ],
+      "repositoryUrl": "https://github.com/LyreStudio/drawing-app",
+      "cloneUrl": "https://github.com/LyreStudio/drawing-app.git",
+      "downloadUrl": "https://codeload.github.com/LyreStudio/drawing-app/zip/43db239acd73c83634df172562caa78605845d7f",
+      "previewUrl": "https://lyrestudio.github.io/drawing-app/",
+      "commit": "43db239acd73c83634df172562caa78605845d7f",
+      "sha256": "a259703c8bde1d7de0129b53af28da20ef947a7ad5cb905c44c1a3ee5a360694",
+      "bytes": 55914,
+      "upstreamRepository": "bradtraversy/50projects50days",
+      "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
+      "upstreamSha256": null,
+      "upstreamFiles": [
+        {
+          "path": "drawing-app/index.html",
+          "bytes": 582,
+          "sha256": "3815ccde258577829f361dca8ce1c3ddc0fea85fe304dea3691f569ed7e826ce"
+        },
+        {
+          "path": "drawing-app/style.css",
+          "bytes": 783,
+          "sha256": "e39838d505d6524046e62b47cb704ab6501edf2db9d5409cc2b160d2cc8d8707"
+        },
+        {
+          "path": "drawing-app/script.js",
+          "bytes": 1690,
+          "sha256": "a7a6f78272640bd5d9f7b98e75cb0adfb3d71296e8e28a7c5807e4f6b230706c"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450"
+        }
+      ],
+      "license": "MIT",
+      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
+      "scope": "Working local browser app; no account or sync"
+    }
+  ]
+}

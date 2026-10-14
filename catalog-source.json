@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "revision": 2026101401,
+  "offerings": [
+    {
+      "id": "stockroom",
+      "title": "Stockroom",
+      "summary": "A practical inventory workspace for small studios and independent shops.",
+      "category": "Inventory",
+      "status": "listed",
+      "features": [
+        "Item quantities and unit costs",
+        "Low-stock overview",
+        "Search, categories and JSON backups"
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/stockroom/",
+      "license": "MIT",
+      "repositoryUrl": "https://github.com/LyreStudio/stockroom",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/stockroom/9968817aa46e6ec06201252bbd035c4c821eef4a/screenshots/desktop.png"
+    },
+    {
+      "id": "project-desk",
+      "title": "Project Desk",
+      "summary": "A focused task board for freelancers and small project workflows.",
+      "category": "Client Tools",
+      "status": "listed",
+      "features": [
+        "Task board with status and due dates",
+        "Project filters and editable notes",
+        "Local persistence and JSON backups"
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/project-desk/",
+      "license": "MIT",
+      "repositoryUrl": "https://github.com/LyreStudio/project-desk",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/project-desk/4d4923e6788d68d1a7a60f842b20b4daa8e13b54/screenshots/desktop.png"
+    },
+    {
+      "id": "daybook",
+      "title": "Daybook",
+      "summary": "A quiet place for daily plans, useful notes and ideas worth keeping.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Daily plans, notes and pinned ideas",
+        "Notebook filters and search",
+        "Local persistence and JSON backups"
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/daybook/",
+      "license": "MIT",
+      "repositoryUrl": "https://github.com/LyreStudio/daybook",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/daybook/03555d5d1111e9dc5d4af34da5770e49f24ac69a/screenshots/desktop.png"
+    },
+    {
+      "id": "agency-site",
+      "title": "Agency website",
+      "summary": "A responsive agency website with services, project modals, a team section and sample contact form.",
+      "category": "Client Tools",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Services and project gallery",
+        "Team and company timeline",
+        "Sample contact form; no email service"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/agency-site/",
+      "repositoryUrl": "https://github.com/LyreStudio/agency-site",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/agency-site/5961375a5702c38b044f14fcc1b56e2593774901/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/agency-site/blob/5961375a5702c38b044f14fcc1b56e2593774901/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "freelancer-portfolio",
+      "title": "Freelancer portfolio",
+      "summary": "A one-page portfolio with a project gallery, detail modals and an about section.",
+      "category": "Client Tools",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Responsive portfolio grid",
+        "Project detail modals",
+        "Sample contact form; no email service"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/freelancer-portfolio/",
+      "repositoryUrl": "https://github.com/LyreStudio/freelancer-portfolio",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/freelancer-portfolio/d17f1209c0b98041b93dcf3691f1d0aa4d388d3f/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/freelancer-portfolio/blob/d17f1209c0b98041b93dcf3691f1d0aa4d388d3f/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "creative-site",
+      "title": "Creative studio website",
+      "summary": "A studio or small-business website with a full-width introduction and a lightbox project gallery.",
+      "category": "Client Tools",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Responsive studio landing page",
+        "Project image lightbox",
+        "Sample contact form; no email service"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/creative-site/",
+      "repositoryUrl": "https://github.com/LyreStudio/creative-site",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/creative-site/e81f16b06c4a0cc2f68634d3936b06cf5d5e4917/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/creative-site/blob/e81f16b06c4a0cc2f68634d3936b06cf5d5e4917/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "resume-site",
+      "title": "Resume website",
+      "summary": "An editable resume website with experience, education, skills and anchored section navigation.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Experience and education sections",
+        "Mobile navigation",
+        "Editable HTML resume; no account needed"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/resume-site/",
+      "repositoryUrl": "https://github.com/LyreStudio/resume-site",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/resume-site/e91e5695cbde6d2778e13731f4c283f73ac2210e/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/resume-site/blob/e91e5695cbde6d2778e13731f4c283f73ac2210e/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "clean-blog",
+      "title": "Clean Blog",
+      "summary": "A multi-page blog website with home, about, article and sample contact pages. Edit posts as HTML.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Home, article and about pages",
+        "Responsive article typography",
+        "Static HTML posts; no CMS or email service"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/clean-blog/",
+      "repositoryUrl": "https://github.com/LyreStudio/clean-blog",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/clean-blog/3c27f181884f77807398362ec2352a2401bd539a/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/clean-blog/blob/3c27f181884f77807398362ec2352a2401bd539a/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "business-frontpage",
+      "title": "Business website",
+      "summary": "A small-business website with service cards, sample pricing, testimonials and a sample contact form.",
+      "category": "Client Tools",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Service and pricing sections",
+        "Responsive business layout",
+        "Sample contact form; no email service"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/business-frontpage/",
+      "repositoryUrl": "https://github.com/LyreStudio/business-frontpage",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/business-frontpage/89183d158d61bf257dbb216922273476db8ba165/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/business-frontpage/blob/89183d158d61bf257dbb216922273476db8ba165/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "shop-homepage",
+      "title": "Shop storefront",
+      "summary": "A responsive storefront UI with a product grid and navigation. Checkout and inventory need a backend.",
+      "category": "Prototypes",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Responsive product grid",
+        "Shop navigation and sample prices",
+        "Storefront UI only; no checkout or inventory"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/shop-homepage/",
+      "repositoryUrl": "https://github.com/LyreStudio/shop-homepage",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/shop-homepage/fa748ac8248e118eded2fcb3614199ea4f65a71c/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/shop-homepage/blob/fa748ac8248e118eded2fcb3614199ea4f65a71c/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "admin-dashboard",
+      "title": "Admin dashboard",
+      "summary": "A multi-page dashboard UI with sample tables, charts and account screens. It has no authentication backend.",
+      "category": "Operations",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Dashboard and sample data tables",
+        "Responsive sidebar and account page layouts",
+        "UI only; no authentication or live business data"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/admin-dashboard/",
+      "repositoryUrl": "https://github.com/LyreStudio/admin-dashboard",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/admin-dashboard/f82114ab77db7adef376c1b00210d2f849d4bc5d/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/admin-dashboard/blob/f82114ab77db7adef376c1b00210d2f849d4bc5d/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "landing-page",
+      "title": "Product landing page",
+      "summary": "A product landing page with feature sections and sample signup forms, ready for your content.",
+      "category": "Prototypes",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Feature and showcase sections",
+        "Responsive product landing page",
+        "Sample signup forms; no mailing-list service"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/landing-page/",
+      "repositoryUrl": "https://github.com/LyreStudio/landing-page",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/landing-page/bf272eaf13ac281884af6c8f2bc1848b3b0f4372/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/landing-page/blob/bf272eaf13ac281884af6c8f2bc1848b3b0f4372/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "grayscale-site",
+      "title": "Grayscale website",
+      "summary": "A dark one-page website with project sections and a sample signup form for a product or creative project.",
+      "category": "Prototypes",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Dark responsive landing page",
+        "Project and contact sections",
+        "Sample signup form; no mailing-list service"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/grayscale-site/",
+      "repositoryUrl": "https://github.com/LyreStudio/grayscale-site",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/grayscale-site/b520ddf8cf50b2075a08954d69bb895aeb3a8e0c/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/grayscale-site/blob/b520ddf8cf50b2075a08954d69bb895aeb3a8e0c/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "todo-list",
+      "title": "To-do list",
+      "summary": "A working browser task list. Add, complete and delete tasks; changes are saved in this browser without an account.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Add, complete and delete tasks",
+        "Browser-local saving with storage error feedback",
+        "Touch and keyboard controls; no account"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/todo-list/",
+      "repositoryUrl": "https://github.com/LyreStudio/todo-list",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/todo-list/0a45ee5bacc52ea76eda306b5e4b2fc2287ec68a/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/todo-list/blob/0a45ee5bacc52ea76eda306b5e4b2fc2287ec68a/README.md",
+      "license": "MIT"
+    },
+    {
+      "id": "drawing-app",
+      "title": "Drawing pad",
+      "summary": "A working drawing canvas with pen size, color, clear and PNG export. Drawings stay on this device and are not autosaved.",
+      "category": "Prototypes",
+      "status": "listed",
+      "kind": "template",
+      "features": [
+        "Mouse, pen and touch drawing",
+        "Choose colors and pen size",
+        "Clear the canvas or save a PNG; no account"
+      ],
+      "previewUrl": "https://lyrestudio.github.io/drawing-app/",
+      "repositoryUrl": "https://github.com/LyreStudio/drawing-app",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/drawing-app/43db239acd73c83634df172562caa78605845d7f/screenshots/desktop.png",
+      "setupUrl": "https://github.com/LyreStudio/drawing-app/blob/43db239acd73c83634df172562caa78605845d7f/README.md",
+      "license": "MIT"
+    }
+  ]
+}

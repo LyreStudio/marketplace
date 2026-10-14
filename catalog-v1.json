@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2026091004,
+  "revision": 2026101401,
   "offerings": [
     {
       "id": "stockroom",
@@ -13,11 +13,11 @@
         "Low-stock overview",
         "Search, categories and JSON backups"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/stockroom",
+      "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/stockroom/",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/stockroom/9968817aa46e6ec06201252bbd035c4c821eef4a/screenshots/desktop.png",
-      "platform": "web",
-      "license": "MIT"
+      "license": "MIT",
+      "repositoryUrl": "https://github.com/LyreStudio/stockroom",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/stockroom/9968817aa46e6ec06201252bbd035c4c821eef4a/screenshots/desktop.png"
     },
     {
       "id": "project-desk",
@@ -30,11 +30,11 @@
         "Project filters and editable notes",
         "Local persistence and JSON backups"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/project-desk",
+      "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/project-desk/",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/project-desk/4d4923e6788d68d1a7a60f842b20b4daa8e13b54/screenshots/desktop.png",
-      "platform": "web",
-      "license": "MIT"
+      "license": "MIT",
+      "repositoryUrl": "https://github.com/LyreStudio/project-desk",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/project-desk/4d4923e6788d68d1a7a60f842b20b4daa8e13b54/screenshots/desktop.png"
     },
     {
       "id": "daybook",
@@ -47,138 +47,11 @@
         "Notebook filters and search",
         "Local persistence and JSON backups"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/daybook",
+      "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/daybook/",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/daybook/03555d5d1111e9dc5d4af34da5770e49f24ac69a/screenshots/desktop.png",
-      "platform": "web",
-      "license": "MIT"
-    },
-    {
-      "id": "ordinary-puzzles",
-      "title": "Ordinary Puzzles",
-      "summary": "A complete mobile logic-puzzle game with touch controls, progress tracking and multiple difficulty levels.",
-      "category": "Education",
-      "status": "listed",
-      "features": [
-        "React Native / Expo · iOS and Android",
-        "Touch-driven puzzles and saved progress",
-        "Established upstream mobile releases"
-      ],
-      "repositoryUrl": "https://github.com/LyreStudio/ordinary-puzzles",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/ordinary-puzzles/b1751de4c0651e17eee7a19c55c4dee44b48e245/screenshots/mobile.png",
-      "platform": "mobile",
       "license": "MIT",
-      "setupUrl": "https://github.com/LyreStudio/ordinary-puzzles/blob/b1751de4c0651e17eee7a19c55c4dee44b48e245/LYRE-MARKETPLACE.md",
-      "appStoreUrl": "https://apps.apple.com/us/app/ordinary-puzzles/id1489599807",
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mmazzarolo.ordinarypuzzles"
-    },
-    {
-      "id": "breathly",
-      "title": "Breathly",
-      "summary": "A native guided-breathing app with animated exercises, session controls and customizable timing.",
-      "category": "Personal Productivity",
-      "status": "listed",
-      "features": [
-        "React Native / Expo · iOS and Android",
-        "Guided breathing animation and session controls",
-        "Customizable techniques and on-device preferences"
-      ],
-      "repositoryUrl": "https://github.com/LyreStudio/breathly",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/breathly/948fa668eb2d5dc27212c4350a9bbe204e11b69e/screenshots/mobile.png",
-      "platform": "mobile",
-      "license": "MPL-2.0",
-      "setupUrl": "https://github.com/LyreStudio/breathly/blob/948fa668eb2d5dc27212c4350a9bbe204e11b69e/LYRE-MARKETPLACE.md",
-      "appStoreUrl": "https://apps.apple.com/us/app/breathly/id1454852966",
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mmazzarolo.breathly"
-    },
-    {
-      "id": "habit-tracker",
-      "title": "Habit Tracker",
-      "summary": "An Expo mobile starter for daily habits, progress heatmaps and offline SQLite storage.",
-      "category": "Personal Productivity",
-      "status": "listed",
-      "features": [
-        "React Native / Expo · iOS and Android source",
-        "Create, edit, archive and reorder habits",
-        "Daily, weekly and monthly progress views"
-      ],
-      "repositoryUrl": "https://github.com/LyreStudio/habit-tracker",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/habit-tracker/850abbdd7f10b6bca762035e36f4a7daa8cebf25/screenshots/mobile.png",
-      "platform": "mobile",
-      "license": "MIT",
-      "setupUrl": "https://github.com/LyreStudio/habit-tracker/blob/850abbdd7f10b6bca762035e36f4a7daa8cebf25/LYRE-MARKETPLACE.md"
-    },
-    {
-      "id": "medusa-dtc",
-      "title": "Medusa DTC",
-      "summary": "Retail storefront with products, variants, cart and customer accounts. Requires a configured Medusa backend and database.",
-      "category": "Operations",
-      "status": "listed",
-      "features": [
-        "Product catalog and variants",
-        "Cart and checkout source",
-        "Backend setup required"
-      ],
-      "repositoryUrl": "https://github.com/medusajs/dtc-starter",
-      "setupUrl": "https://github.com/medusajs/dtc-starter/blob/19e8a6fbefea5a385e9502409908bfbebbecf526/README.md",
-      "platform": "web",
-      "kind": "template",
-      "license": "MIT",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/medusa-dtc.png"
-    },
-    {
-      "id": "medusa-b2b",
-      "title": "Medusa B2B",
-      "summary": "Wholesale and business purchasing starter. Requires business configuration, a Medusa backend and database.",
-      "category": "Operations",
-      "status": "listed",
-      "features": [
-        "Business purchasing starter",
-        "Editable storefront source",
-        "Backend setup required"
-      ],
-      "repositoryUrl": "https://github.com/medusajs/b2b-starter",
-      "setupUrl": "https://github.com/medusajs/b2b-starter/blob/6f7df8391452f4eebddb60f3bc720532dfb680b2/README.md",
-      "platform": "web",
-      "kind": "template",
-      "license": "MIT",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/medusa-b2b.png"
-    },
-    {
-      "id": "vendure-storefront",
-      "title": "Vendure Storefront",
-      "summary": "A filterable product storefront with collections, variants and localization. Requires a running Vendure Shop API.",
-      "category": "Operations",
-      "status": "listed",
-      "features": [
-        "Product search and filters",
-        "Variants and localization",
-        "Vendure API required"
-      ],
-      "repositoryUrl": "https://github.com/vendurehq/tanstack-starter-vendure",
-      "setupUrl": "https://github.com/vendurehq/tanstack-starter-vendure/blob/2cc5139f09c325dd063e8b38e29fe21a6db1380c/README.md",
-      "platform": "web",
-      "kind": "template",
-      "license": "MIT",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/vendure-storefront.png"
-    },
-    {
-      "id": "mercur-marketplace",
-      "title": "Mercur Marketplace",
-      "summary": "Multi-vendor marketplace core with seller and operator tools. Commerce infrastructure is required; paid Enterprise modules are separate.",
-      "category": "Operations",
-      "status": "listed",
-      "features": [
-        "Multi-vendor catalog source",
-        "Seller and admin tools",
-        "MIT core; Enterprise separate"
-      ],
-      "repositoryUrl": "https://github.com/mercurjs/mercur",
-      "setupUrl": "https://github.com/mercurjs/mercur/blob/6c049711c8989c861894d6bdf4701192d7b5e89a/README.md",
-      "platform": "web",
-      "kind": "template",
-      "license": "MIT",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/49e25bdebe3070b3c57b5172288074ed41e085af/images/mercur-marketplace.png"
+      "repositoryUrl": "https://github.com/LyreStudio/daybook",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/daybook/03555d5d1111e9dc5d4af34da5770e49f24ac69a/screenshots/desktop.png"
     }
   ]
 }
