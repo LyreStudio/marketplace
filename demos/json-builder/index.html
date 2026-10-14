@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"><title>JSON builder</title><meta name="lyre-marketplace-demo" content="json-builder"><link rel="stylesheet" href="lyre.css"><script src="lyre.js" type="module"></script></head>
+  <body><header class="lyre-heading"><h1>JSON builder</h1><p>Build nested key/value objects and display the generated JSON locally.</p><p>String values only; no file import, export or server connection.</p></header><div class="lyre-status" role="status"></div>
+    <div class="container">
+      <div id="json-holder"></div>
+      <button class="get-json-button">Get JSON</button>
+      <div><output></output></div>
+    </div>
+
+    <template class="json-template">
+      <div class="json-container">
+        <span class="arrow hide">▶</span>
+        <input type="text" class="key" aria-label="Object key" placeholder="key" />
+        <input type="text" class="value" aria-label="String value" placeholder="value" />
+        <button class="add" aria-label="Add nested key">+</button>
+        <button class="remove" aria-label="Remove key">x</button>
+      </div>
+    </template>
+  </body>
+</html>

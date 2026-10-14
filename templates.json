@@ -1,348 +1,2033 @@
 {
-  "schemaVersion": 1,
-  "reviewedAt": "2026-10-14",
+  "schemaVersion": 2,
+  "revision": 2026101403,
+  "adapterCommit": "172321eac6e018088d98160a21996435247c1638",
+  "releaseTag": "templates-20261014.1",
   "templates": [
     {
       "id": "agency-site",
       "title": "Agency website",
       "summary": "A responsive agency website with services, project modals, a team section and sample contact form.",
       "category": "Client Tools",
+      "status": "listed",
       "features": [
         "Services and project gallery",
         "Team and company timeline",
         "Sample contact form; no email service"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/agency-site",
-      "cloneUrl": "https://github.com/LyreStudio/agency-site.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/agency-site/zip/5961375a5702c38b044f14fcc1b56e2593774901",
-      "previewUrl": "https://lyrestudio.github.io/agency-site/",
-      "commit": "5961375a5702c38b044f14fcc1b56e2593774901",
-      "sha256": "22e756aaeef5031efd9456fe6ff81d629164cfb4469cf7ad7ed06951a4f1fb9a",
-      "bytes": 556018,
-      "upstreamRepository": "StartBootstrap/startbootstrap-agency",
-      "upstreamCommit": "b2d5d5c6b1396bc5b0e8dd92c693b106cfb7cee1",
-      "upstreamSha256": "5334263392681b157e747b6d78d30e7eed93882f646726802827c28c71e91d74",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/agency-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-agency",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/agency-site/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/agency-site/README.md",
+      "upstreamCommit": "b2d5d5c6b1396bc5b0e8dd92c693b106cfb7cee1",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-agency.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "80a37da367295bc05d4710f55461afe443c62c8a50e03ab58148b8a3357c1777",
+          "bytes": 4868
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "36e30dedf27c9a8bd3db4dd71fc074f343d16ff74dfa5fc66c7340408c528fae",
+          "bytes": 250501
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "3b89a428da39a6f1bb2b280788a15c9156184d1292ee5303329ae85af46e480e",
+          "bytes": 39672
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "e07bdd6147c86f2c1c033aa0cbc08be5bea50a9abcb4b6f05184eeaea1dea53d",
+          "bytes": 1654
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/agency-site/adapter.json",
+      "adapterSha256": "2a0ca6f79b7ad77211d17dd6c333323e34a0b2767d36f7c50853bfa4631ff471",
+      "adapterBytes": 53417,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/agency-site/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/agency-site.zip",
+      "sha256": "632b225e6472715296f357db79f3e1043200a20f3c6e369035aa5000ed32f7bb",
+      "bytes": 59698
     },
     {
       "id": "freelancer-portfolio",
       "title": "Freelancer portfolio",
       "summary": "A one-page portfolio with a project gallery, detail modals and an about section.",
       "category": "Client Tools",
+      "status": "listed",
       "features": [
         "Responsive portfolio grid",
         "Project detail modals",
         "Sample contact form; no email service"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/freelancer-portfolio",
-      "cloneUrl": "https://github.com/LyreStudio/freelancer-portfolio.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/freelancer-portfolio/zip/d17f1209c0b98041b93dcf3691f1d0aa4d388d3f",
-      "previewUrl": "https://lyrestudio.github.io/freelancer-portfolio/",
-      "commit": "d17f1209c0b98041b93dcf3691f1d0aa4d388d3f",
-      "sha256": "95a47107bc4a995410c57c8291eebd388615b5348917a5d37fd58d8cd0a3cd8e",
-      "bytes": 197887,
-      "upstreamRepository": "StartBootstrap/startbootstrap-freelancer",
-      "upstreamCommit": "5bc65b4bd01e4ab63186395d5f95c7fdaa26216d",
-      "upstreamSha256": "78ab3d4092f2b9d50f992eca280be709eab1aec23c983a6fa9fa11efeab4059a",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/freelancer-portfolio/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-freelancer",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/freelancer-portfolio/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/freelancer-portfolio/README.md",
+      "upstreamCommit": "5bc65b4bd01e4ab63186395d5f95c7fdaa26216d",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-freelancer.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "7cfb7483fa643abcce409ac1d6f4004b65ebbdcf6a419e02f6897eee3a4f1694",
+          "bytes": 1090
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "9d5b9ae04cac0ed054c83c399383f8788576fd4630b2879199931c9089a254fb",
+          "bytes": 4948
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "8ac9f7035a99c4db46fbcfb5ea5b43ca78513ddcd960cba53e4d97219da409c5",
+          "bytes": 241509
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "245671625fc645bc0e2373ab2a69e43e34de92c44cb4ec60283867b4a4769731",
+          "bytes": 30997
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "1795e1d8e0cd594241d7bd0ac15827b7d962194b6b7e35483dc5386c0889008e",
+          "bytes": 1664
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/freelancer-portfolio/adapter.json",
+      "adapterSha256": "fef9b09b6fe65e76e31393fa8f620d0ed2e55a2ed02ae34333b98b1308a21b86",
+      "adapterBytes": 38739,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/freelancer-portfolio/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/freelancer-portfolio.zip",
+      "sha256": "6f68768b2400393674de26f395eab3933c8ca825f9cc574280ac20c0e02886a8",
+      "bytes": 52233
     },
     {
       "id": "creative-site",
       "title": "Creative studio website",
       "summary": "A studio or small-business website with a full-width introduction and a lightbox project gallery.",
       "category": "Client Tools",
+      "status": "listed",
       "features": [
         "Responsive studio landing page",
         "Project image lightbox",
         "Sample contact form; no email service"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/creative-site",
-      "cloneUrl": "https://github.com/LyreStudio/creative-site.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/creative-site/zip/e81f16b06c4a0cc2f68634d3936b06cf5d5e4917",
-      "previewUrl": "https://lyrestudio.github.io/creative-site/",
-      "commit": "e81f16b06c4a0cc2f68634d3936b06cf5d5e4917",
-      "sha256": "36e9b4150f7d97a127fdfd5cf1393dcc674963ca5c07efbe6704cf9ac40bf19d",
-      "bytes": 455607,
-      "upstreamRepository": "StartBootstrap/startbootstrap-creative",
-      "upstreamCommit": "b1762d8c690a2379c078c776dc0830bdd81c6f55",
-      "upstreamSha256": "085435879015b0afe2b2adb4bdcd1226aa9cd4ac6e72e979c48e35e190875eef",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/creative-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-creative",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/creative-site/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/creative-site/README.md",
+      "upstreamCommit": "b1762d8c690a2379c078c776dc0830bdd81c6f55",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-creative.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "2db8e1bd86e7994f15b771e85bb6ed100e31f0d0ed8d27f91ebc66dd3d1dffb1",
+          "bytes": 4756
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "5caca2c3ace316733b9b3750b34b67865b0cbf096a0c01b82e33fee5e682da9f",
+          "bytes": 243747
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "5eff9f1395ec8d3ff7059c8c79e9ca4dbe04f01de06dfc862b255194ea0fd53c",
+          "bytes": 16606
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "e0e65b9aa4f12964f81b136a4b8a17c5ee9603b1c6e6c57fd6369dead2743ebf",
+          "bytes": 1797
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/creative-site/adapter.json",
+      "adapterSha256": "9caf52e2c35835adf6e0db3087b4e7b386732e73da2cf02aabd6f78c018988b4",
+      "adapterBytes": 44626,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/creative-site/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/creative-site.zip",
+      "sha256": "2c608d465e25035bea47c9e2a5bc0b55a9c89b6c295ea1a4ba802c771c1dc8ab",
+      "bytes": 54602
     },
     {
       "id": "resume-site",
       "title": "Resume website",
       "summary": "An editable resume website with experience, education, skills and anchored section navigation.",
       "category": "Personal Productivity",
+      "status": "listed",
       "features": [
         "Experience and education sections",
         "Mobile navigation",
         "Editable HTML resume; no account needed"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/resume-site",
-      "cloneUrl": "https://github.com/LyreStudio/resume-site.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/resume-site/zip/e91e5695cbde6d2778e13731f4c283f73ac2210e",
-      "previewUrl": "https://lyrestudio.github.io/resume-site/",
-      "commit": "e91e5695cbde6d2778e13731f4c283f73ac2210e",
-      "sha256": "e6a18abf81017c490bf6f419fda68bc3791c4d8fa2127315a13291599eb1aec9",
-      "bytes": 154822,
-      "upstreamRepository": "StartBootstrap/startbootstrap-resume",
-      "upstreamCommit": "c6fbe5ef431642984d0f17960194632f20cf67bc",
-      "upstreamSha256": "1d4d4f279f4023191e81951b79d316a3b058384af4edf0c353667ea7beeef1fd",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/resume-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-resume",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/resume-site/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/resume-site/README.md",
+      "upstreamCommit": "c6fbe5ef431642984d0f17960194632f20cf67bc",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-resume.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "a19177e4cdf20c202d048745ec1abcf9c77e4166c3b55dac0618d2342720a074",
+          "bytes": 3975
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "786f6fecadcedd3808355d6daeddc4a1b47037390f018f9b534825b8f4d80a00",
+          "bytes": 240055
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "fb44286b638620af916dc30f401ccf94d7401cba2d9cf7bb4daf5ba6bb814268",
+          "bytes": 14598
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "9c80aa6aea01f41b33b7428ad7f6c74daecf5ed0bfd9ba897b0ed27de72fd5a7",
+          "bytes": 1099
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/resume-site/adapter.json",
+      "adapterSha256": "119578b8729c01cad0929799f39ffb89d3aaa133372a848e754833c4d8568740",
+      "adapterBytes": 27143,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/resume-site/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/resume-site.zip",
+      "sha256": "a620caca349fa0f2da71cd6d3be6f9fc3d6d456a5f559d41451c3b8e7cd7ee33",
+      "bytes": 47751
     },
     {
       "id": "clean-blog",
       "title": "Clean Blog",
       "summary": "A multi-page blog website with home, about, article and sample contact pages. Edit posts as HTML.",
       "category": "Personal Productivity",
+      "status": "listed",
       "features": [
         "Home, article and about pages",
         "Responsive article typography",
         "Static HTML posts; no CMS or email service"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/clean-blog",
-      "cloneUrl": "https://github.com/LyreStudio/clean-blog.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/clean-blog/zip/3c27f181884f77807398362ec2352a2401bd539a",
-      "previewUrl": "https://lyrestudio.github.io/clean-blog/",
-      "commit": "3c27f181884f77807398362ec2352a2401bd539a",
-      "sha256": "77a578cc47659209eaad7ee679d575cec5d324b6d25acfaee64997c5fc18abbf",
-      "bytes": 352544,
-      "upstreamRepository": "StartBootstrap/startbootstrap-clean-blog",
-      "upstreamCommit": "1ebc4f8f3b6194335df237a2a7837955a5a4a9aa",
-      "upstreamSha256": "ccf27cf6095db641cbb17bd76c1410c813ab70b173378d2dfd04743c0b30e629",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/clean-blog/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-clean-blog",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/clean-blog/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/clean-blog/README.md",
+      "upstreamCommit": "1ebc4f8f3b6194335df237a2a7837955a5a4a9aa",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-clean-blog.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "e107eef706598bd0661fda47d334e4318799cdf806a4726ff465244abb093c9c",
+          "bytes": 4969
+        },
+        {
+          "path": "about.html",
+          "sourcePath": "dist/about.html",
+          "sha256": "fd00d01f5a66f96b820b090775ebc3986f483d65be1f1eee407f767198dbcdd7",
+          "bytes": 6113
+        },
+        {
+          "path": "contact.html",
+          "sourcePath": "dist/contact.html",
+          "sha256": "02784423b73d7d6fcf017b7fe8a043f2920ea9489b1283b71dca410be22517dc",
+          "bytes": 10169
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "186bc930a1ac74e723406db4a509fcfae961a53ae66e1a0af2373823b61c49ec",
+          "bytes": 233159
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "20e87ae8660b3f3d298a0a71364f4f7afda6a586070a65ddf2caedcd934466d8",
+          "bytes": 8213
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "38ff3c6890b951d0a555f5b4a22a166be252f82d5bfd3a4ab02738656b401432",
+          "bytes": 1176
+        },
+        {
+          "path": "post.html",
+          "sourcePath": "dist/post.html",
+          "sha256": "d6885dd13e734e5315bc4cb36ba2406307812f54376dedfa776931023e0d1d56",
+          "bytes": 9663
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/clean-blog/adapter.json",
+      "adapterSha256": "80c6a46dde5a053fd30e8c280e2362ddddcff2602baed2c17ac3844f301891db",
+      "adapterBytes": 40573,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/clean-blog/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/clean-blog.zip",
+      "sha256": "16b3cf0929cc1588245ad924df46dacdf0673cafe844e1728559af42db3bb75e",
+      "bytes": 56242
     },
     {
       "id": "business-frontpage",
       "title": "Business website",
       "summary": "A small-business website with service cards, sample pricing, testimonials and a sample contact form.",
       "category": "Client Tools",
+      "status": "listed",
       "features": [
         "Service and pricing sections",
         "Responsive business layout",
         "Sample contact form; no email service"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/business-frontpage",
-      "cloneUrl": "https://github.com/LyreStudio/business-frontpage.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/business-frontpage/zip/89183d158d61bf257dbb216922273476db8ba165",
-      "previewUrl": "https://lyrestudio.github.io/business-frontpage/",
-      "commit": "89183d158d61bf257dbb216922273476db8ba165",
-      "sha256": "a731f708ea50ff1f658ca1f55d097d37c9f878dfe2dde6fc3aa493baaae83250",
-      "bytes": 122689,
-      "upstreamRepository": "StartBootstrap/startbootstrap-business-frontpage",
-      "upstreamCommit": "b330ff68d31fca0950dcce5687796d71432fbd5f",
-      "upstreamSha256": "bef5e7cfdef05444956f88e339d362671208c71dd2496578279be3e4c1f07422",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/business-frontpage/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-business-frontpage",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/business-frontpage/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/business-frontpage/README.md",
+      "upstreamCommit": "b330ff68d31fca0950dcce5687796d71432fbd5f",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-business-frontpage.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "56d88a0773773449e2db7d7815f2f102685187486c985e33170f871308440503",
+          "bytes": 4944
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "daf8b6dc487ac1b09f62ceaf4daa7f8a75acc42786884cbd296d67bf60a279e2",
+          "bytes": 236944
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "1de9a9d4d26b95d294ff324da618e8eaf78745abb10a0bcd6a83f0f5fa5e0d1c",
+          "bytes": 21935
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "19e300e6c90ca8b0bdb2f833f214ec0c44d205c5d0ecdffd94f936e31a399c64",
+          "bytes": 345
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/business-frontpage/adapter.json",
+      "adapterSha256": "a4669c2f3cacfbef04b67f49ac17dd95a7e22cd0e715a452710e863f6fbc50b8",
+      "adapterBytes": 28576,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/business-frontpage/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/business-frontpage.zip",
+      "sha256": "61dc0e06bce7e56c69239a05044ac160db6a44c56f10a81ccd89b555cdd176f9",
+      "bytes": 46438
     },
     {
       "id": "shop-homepage",
       "title": "Shop storefront",
       "summary": "A responsive storefront UI with a product grid and navigation. Checkout and inventory need a backend.",
       "category": "Prototypes",
+      "status": "listed",
       "features": [
         "Responsive product grid",
         "Shop navigation and sample prices",
         "Storefront UI only; no checkout or inventory"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/shop-homepage",
-      "cloneUrl": "https://github.com/LyreStudio/shop-homepage.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/shop-homepage/zip/fa748ac8248e118eded2fcb3614199ea4f65a71c",
-      "previewUrl": "https://lyrestudio.github.io/shop-homepage/",
-      "commit": "fa748ac8248e118eded2fcb3614199ea4f65a71c",
-      "sha256": "236d7123571ea30821c8379723ff5dddd2fdc64b8696ddd4fcc17f86667e200e",
-      "bytes": 226998,
-      "upstreamRepository": "StartBootstrap/startbootstrap-shop-homepage",
-      "upstreamCommit": "fb3a49020b840cdbcb0a588fdbda8fc019710a6f",
-      "upstreamSha256": "3aa0479d8fd126b5aa65aeb74c615095ab1530b6660e41cbdaa70ba2b296b61b",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/shop-homepage/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-shop-homepage",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/shop-homepage/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/shop-homepage/README.md",
+      "upstreamCommit": "fb3a49020b840cdbcb0a588fdbda8fc019710a6f",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-shop-homepage.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "14e68ce38905d46dfa9cf099f16f7684769212e0257739a17dce68545049ed67",
+          "bytes": 4042
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "4cb860e53edbc2e1aeb8f1c7acbb711874fd6b5184348f297087514adcda3d0d",
+          "bytes": 236792
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "b264f579368fc64ec9ccae4e44cbc449ad39a3306249f07293cf24af0785f746",
+          "bytes": 16090
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "65f115a671abf935ebd4b7d966b2135b11a58412efe0586a57a86bb79c61a131",
+          "bytes": 330
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/shop-homepage/adapter.json",
+      "adapterSha256": "f13535a02878d1ff17d2e226b0d9f2fdcc5a33ef43ddad2b99e53ffb8c90001a",
+      "adapterBytes": 28699,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/shop-homepage/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/shop-homepage.zip",
+      "sha256": "f23a14eb47726eed1bc97a28aa67a3ca15d4c1ef1657c597ed38a6e8887911d1",
+      "bytes": 45071
     },
     {
       "id": "admin-dashboard",
       "title": "Admin dashboard",
       "summary": "A multi-page dashboard UI with sample tables, charts and account screens. It has no authentication backend.",
       "category": "Operations",
+      "status": "listed",
       "features": [
         "Dashboard and sample data tables",
         "Responsive sidebar and account page layouts",
         "UI only; no authentication or live business data"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/admin-dashboard",
-      "cloneUrl": "https://github.com/LyreStudio/admin-dashboard.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/admin-dashboard/zip/f82114ab77db7adef376c1b00210d2f849d4bc5d",
-      "previewUrl": "https://lyrestudio.github.io/admin-dashboard/",
-      "commit": "f82114ab77db7adef376c1b00210d2f849d4bc5d",
-      "sha256": "201804b6e990f62766ba088ef133cbc2758d0d9884f26e317bdd337dac1168bc",
-      "bytes": 178609,
-      "upstreamRepository": "StartBootstrap/startbootstrap-sb-admin",
-      "upstreamCommit": "adde34b9616b9840c4da756323131f59ac445090",
-      "upstreamSha256": "0aca1517e8ecfa8737b7d067d5ab0a6f3c9f33264e35ee4d4cfe24def903b445",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/admin-dashboard/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-sb-admin",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/admin-dashboard/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/admin-dashboard/README.md",
+      "upstreamCommit": "adde34b9616b9840c4da756323131f59ac445090",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-sb-admin.git",
+      "sourceFiles": [
+        {
+          "path": "401.html",
+          "sourcePath": "dist/401.html",
+          "sha256": "0ea45992a9bcfe0c88761520833eec6e9e0171a0fce026cdd1f050bf16740bdb",
+          "bytes": 2407
+        },
+        {
+          "path": "404.html",
+          "sourcePath": "dist/404.html",
+          "sha256": "0831f845c46dfe0cd625330cd4936bf41b1faf317ec57a01488db00072d334f0",
+          "bytes": 2407
+        },
+        {
+          "path": "500.html",
+          "sourcePath": "dist/500.html",
+          "sha256": "152960b7480f904d2791b8b23824969c592f738b3d46738819a0ece4a8733d74",
+          "bytes": 2338
+        },
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "9e321734b9778cb9dcca17da834ced4bc3be1cd4a7d0785b4070c8ca764db7e8",
+          "bytes": 4211
+        },
+        {
+          "path": "assets/demo/chart-area-demo.js",
+          "sourcePath": "dist/assets/demo/chart-area-demo.js",
+          "sha256": "f4b2cfed72aaca9b67acd6e642a2239b9ac80f0e73c04f4a584e215612b926f9",
+          "bytes": 1530
+        },
+        {
+          "path": "assets/demo/chart-bar-demo.js",
+          "sourcePath": "dist/assets/demo/chart-bar-demo.js",
+          "sha256": "f6da6f9b747945d156c540c8034f425b09d6c692f18896162a89bc81d2f09772",
+          "bytes": 1112
+        },
+        {
+          "path": "assets/demo/chart-pie-demo.js",
+          "sourcePath": "dist/assets/demo/chart-pie-demo.js",
+          "sha256": "8171e1f0e66718567c3dbf82a1297027b971eed643d5a98e2eb4804b023c35ea",
+          "bytes": 597
+        },
+        {
+          "path": "assets/demo/datatables-demo.js",
+          "sourcePath": "dist/assets/demo/datatables-demo.js",
+          "sha256": "dc1619fe27bdc769c859200ed4df4cd152123d1e457cfe5683410a1d9ccd3a8a",
+          "bytes": 103
+        },
+        {
+          "path": "charts.html",
+          "sourcePath": "dist/charts.html",
+          "sha256": "42eef5e8e9cd7f4873b311e6135b33c15ca20e80a7c80a9b0ec25b5551fdb4bf",
+          "bytes": 11617
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "4e5fc948f7603cf5d65564947b065ba51ea4656d6755ff1fe8f0354a9c31a45a",
+          "bytes": 250226
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "746b3b42c4070c85495d60d4b35efb2028d8126df786ac9a2a461f157edd3d72",
+          "bytes": 41881
+        },
+        {
+          "path": "js/datatables-simple-demo.js",
+          "sourcePath": "dist/js/datatables-simple-demo.js",
+          "sha256": "039af85f6e18e1439e03b1410ba1d2defa23efac6499ccf2c21f6a3be2f2e614",
+          "bytes": 312
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "85238ab5aa0b6ed017dd02f1a2055c69583c16fed8e874c272926a55e3efef6d",
+          "bytes": 976
+        },
+        {
+          "path": "layout-sidenav-light.html",
+          "sourcePath": "dist/layout-sidenav-light.html",
+          "sha256": "148ded45b7e9f95d6c8faf3efdd452631e59368abcf604c0b73c034d82d11796",
+          "bytes": 9559
+        },
+        {
+          "path": "layout-static.html",
+          "sourcePath": "dist/layout-static.html",
+          "sha256": "62dfe2d89b427bb80f5da3f533114ebf04bfa7fc08d1c61ed7cfca171b7cc635",
+          "bytes": 9791
+        },
+        {
+          "path": "login.html",
+          "sourcePath": "dist/login.html",
+          "sha256": "1f8c1a88dd8e234d827498a8550afd0393ef57080eea2e667633f1c55e3f6c21",
+          "bytes": 4075
+        },
+        {
+          "path": "password.html",
+          "sourcePath": "dist/password.html",
+          "sha256": "ceed0dba0e4ad820a644f9ce5b2b29687a0e82a536c843332dcfc0f37451961c",
+          "bytes": 3508
+        },
+        {
+          "path": "register.html",
+          "sourcePath": "dist/register.html",
+          "sha256": "c3f39c3b6dc760e0f095c8e82f7861cf05bbb06e948698b2f172cbd04f819142",
+          "bytes": 5600
+        },
+        {
+          "path": "tables.html",
+          "sourcePath": "dist/tables.html",
+          "sha256": "cde1df57fd2d908c29af0f9cf285355a68ee60a40ee67d0c505648a022d9d715",
+          "bytes": 38311
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/admin-dashboard/adapter.json",
+      "adapterSha256": "30e131a65eca160715809b4b85ae92832e26803e847a92288936e11d446d03a1",
+      "adapterBytes": 49389,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/admin-dashboard/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/admin-dashboard.zip",
+      "sha256": "ec5bae8d9d39f6507c3a03685c26857567b756183a97142922c13eccc9fdb992",
+      "bytes": 73687
     },
     {
       "id": "landing-page",
       "title": "Product landing page",
       "summary": "A product landing page with feature sections and sample signup forms, ready for your content.",
       "category": "Prototypes",
+      "status": "listed",
       "features": [
         "Feature and showcase sections",
         "Responsive product landing page",
         "Sample signup forms; no mailing-list service"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/landing-page",
-      "cloneUrl": "https://github.com/LyreStudio/landing-page.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/landing-page/zip/bf272eaf13ac281884af6c8f2bc1848b3b0f4372",
-      "previewUrl": "https://lyrestudio.github.io/landing-page/",
-      "commit": "bf272eaf13ac281884af6c8f2bc1848b3b0f4372",
-      "sha256": "18408052abd75520b4aa77c23899bcda7e3d370518649351eda7f9e6b34be87e",
-      "bytes": 339240,
-      "upstreamRepository": "StartBootstrap/startbootstrap-landing-page",
-      "upstreamCommit": "247a46a2503c91d1157179eab297953438ec498b",
-      "upstreamSha256": "28fe466629f898ceaba8ae99bc65825d74084ffcbc84cdf3df7aa2a61109ef4e",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/landing-page/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-landing-page",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/landing-page/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/landing-page/README.md",
+      "upstreamCommit": "247a46a2503c91d1157179eab297953438ec498b",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-landing-page.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "bbd69f25955d0ebc78589d2898bcec6cea047d51a1f6e210e96bd8b63d6411d5",
+          "bytes": 4002
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "79e9784ee23635f66f31f288b4199384dcad48d7e8a2fd1864cda9e4babc88bb",
+          "bytes": 238908
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "296010b4f604ed45c2f5f1785a45c5fd450adefb63f621c91f933b6ed4de422a",
+          "bytes": 15517
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "7ab7a5ebe917104422d5552c7e03cc7ed66460d196195a5213beb830a4adcd57",
+          "bytes": 324
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/landing-page/adapter.json",
+      "adapterSha256": "cc49ebe0e4af511b48a1e0c9e50825281180ee964eb1036ac4c52029618f66bd",
+      "adapterBytes": 37370,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/landing-page/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/landing-page.zip",
+      "sha256": "64d9e1c7880e45459f3c4f9cecd3b26e80c07a5f5f91cbf94ae7be95a681b62d",
+      "bytes": 49498
     },
     {
       "id": "grayscale-site",
       "title": "Grayscale website",
       "summary": "A dark one-page website with project sections and a sample signup form for a product or creative project.",
       "category": "Prototypes",
+      "status": "listed",
       "features": [
         "Dark responsive landing page",
         "Project and contact sections",
         "Sample signup form; no mailing-list service"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/grayscale-site",
-      "cloneUrl": "https://github.com/LyreStudio/grayscale-site.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/grayscale-site/zip/b520ddf8cf50b2075a08954d69bb895aeb3a8e0c",
-      "previewUrl": "https://lyrestudio.github.io/grayscale-site/",
-      "commit": "b520ddf8cf50b2075a08954d69bb895aeb3a8e0c",
-      "sha256": "fb6143d4d2276311d0bf97039df9dfcc1d4533d71b4057131345fd60889b4a75",
-      "bytes": 519959,
-      "upstreamRepository": "StartBootstrap/startbootstrap-grayscale",
-      "upstreamCommit": "d974402542d05abcbaa8d21d4dd78e53680f2edd",
-      "upstreamSha256": "c510d8775b2bfdd5e9921f6ed157fd6226b70476d7f577f9bbd19fbec555e14e",
-      "upstreamFiles": null,
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/grayscale-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-grayscale",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/grayscale-site/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Editable static website/UI; backend services are not included"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/grayscale-site/README.md",
+      "upstreamCommit": "d974402542d05abcbaa8d21d4dd78e53680f2edd",
+      "cloneUrl": "https://github.com/StartBootstrap/startbootstrap-grayscale.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "e8b857747301fcd4c885b3216544b18bbf60328aec2c34da614787346cf40282",
+          "bytes": 1091
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "a9defd313908d3466323f007297427b782fe94cc0663c44e3bbe8ab6c2723c35",
+          "bytes": 3946
+        },
+        {
+          "path": "css/styles.css",
+          "sourcePath": "dist/css/styles.css",
+          "sha256": "9fd76ca3867d2bf177c1648f68ca8f7113f2c67096b5ef8d6a0258eae045ab37",
+          "bytes": 246671
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "dist/index.html",
+          "sha256": "666ef3b2e6af2d6a167172e23e58f7e5eac2f514cd0f4dba2b83c5f707ecfa4a",
+          "bytes": 12708
+        },
+        {
+          "path": "js/scripts.js",
+          "sourcePath": "dist/js/scripts.js",
+          "sha256": "c4636779aad0ee3ea0ad730a2eb31f57890314eef8e0296df54935f8575f7c04",
+          "bytes": 1660
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/grayscale-site/adapter.json",
+      "adapterSha256": "278cf0710272c2bd45ed0db10491c8893955c60c3e945e9be51c0cf8d536b706",
+      "adapterBytes": 34012,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/grayscale-site/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/grayscale-site.zip",
+      "sha256": "3080cc3cb0c2f545e097597d7f13211dce1cf9c6a39e38d3201863131ea9b61e",
+      "bytes": 50317
     },
     {
       "id": "todo-list",
       "title": "To-do list",
       "summary": "A working browser task list. Add, complete and delete tasks; changes are saved in this browser without an account.",
       "category": "Personal Productivity",
+      "status": "listed",
       "features": [
         "Add, complete and delete tasks",
         "Browser-local saving with storage error feedback",
         "Touch and keyboard controls; no account"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/todo-list",
-      "cloneUrl": "https://github.com/LyreStudio/todo-list.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/todo-list/zip/738dfbedada82ad7d7de99bf34fcfb7f15893e46",
-      "previewUrl": "https://lyrestudio.github.io/todo-list/",
-      "commit": "738dfbedada82ad7d7de99bf34fcfb7f15893e46",
-      "sha256": "11afb1620e547a51fcee618d2224ba614c3549412aab49331ed0fa0867b7cbb8",
-      "bytes": 55432,
-      "upstreamRepository": "bradtraversy/50projects50days",
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/todo-list/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/todo-list/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/todo-list/README.md",
       "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
-      "upstreamSha256": null,
-      "upstreamFiles": [
-        {
-          "path": "todo-list/index.html",
-          "bytes": 577,
-          "sha256": "3f4fc0aa6dd06816c0ce255265dfc03ce7b154ff762661690736e9624ad349d1"
-        },
-        {
-          "path": "todo-list/style.css",
-          "bytes": 1086,
-          "sha256": "4803a1c13c2d29003eca0ac908247b592acdbcc959a0915e90761c48d0466043"
-        },
-        {
-          "path": "todo-list/script.js",
-          "bytes": 1344,
-          "sha256": "c6e63a38b15bc9c59a34dbafb514b315b7c59d2d3005e681fe3e2319fc3696c2"
-        },
+      "cloneUrl": "https://github.com/bradtraversy/50projects50days.git",
+      "sourceFiles": [
         {
           "path": "LICENSE",
-          "bytes": 1070,
-          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450"
+          "sourcePath": "LICENSE",
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450",
+          "bytes": 1070
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "todo-list/index.html",
+          "sha256": "3f4fc0aa6dd06816c0ce255265dfc03ce7b154ff762661690736e9624ad349d1",
+          "bytes": 577
+        },
+        {
+          "path": "script.js",
+          "sourcePath": "todo-list/script.js",
+          "sha256": "c6e63a38b15bc9c59a34dbafb514b315b7c59d2d3005e681fe3e2319fc3696c2",
+          "bytes": 1344
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "todo-list/style.css",
+          "sha256": "4803a1c13c2d29003eca0ac908247b592acdbcc959a0915e90761c48d0466043",
+          "bytes": 1086
         }
       ],
-      "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Working local browser app; no account or sync"
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/todo-list/adapter.json",
+      "adapterSha256": "b9ba627a51d1e3b8c72d10a47af908da13e34efb3f4b5c50d56d24a6e129226f",
+      "adapterBytes": 24064,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/todo-list/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/todo-list.zip",
+      "sha256": "aa9342d90a0d403280a06a8dee93c1205a9263296f968e05146fd080599f0c42",
+      "bytes": 10559
     },
     {
       "id": "drawing-app",
       "title": "Drawing pad",
       "summary": "A working drawing canvas with pen size, color, clear and PNG export. Drawings stay on this device and are not autosaved.",
       "category": "Prototypes",
+      "status": "listed",
       "features": [
         "Mouse, pen and touch drawing",
         "Choose colors and pen size",
         "Clear the canvas or save a PNG; no account"
       ],
-      "repositoryUrl": "https://github.com/LyreStudio/drawing-app",
-      "cloneUrl": "https://github.com/LyreStudio/drawing-app.git",
-      "downloadUrl": "https://codeload.github.com/LyreStudio/drawing-app/zip/5d46ce033e422d3cea8ca9e62d4ec4e82d93fe70",
-      "previewUrl": "https://lyrestudio.github.io/drawing-app/",
-      "commit": "5d46ce033e422d3cea8ca9e62d4ec4e82d93fe70",
-      "sha256": "efa8979f6e0a3eda7fe10e89a7d477c351ea7d259f484a72a6a3243953707217",
-      "bytes": 56396,
-      "upstreamRepository": "bradtraversy/50projects50days",
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/drawing-app/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/drawing-app/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/drawing-app/README.md",
       "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
-      "upstreamSha256": null,
-      "upstreamFiles": [
-        {
-          "path": "drawing-app/index.html",
-          "bytes": 582,
-          "sha256": "3815ccde258577829f361dca8ce1c3ddc0fea85fe304dea3691f569ed7e826ce"
-        },
-        {
-          "path": "drawing-app/style.css",
-          "bytes": 783,
-          "sha256": "e39838d505d6524046e62b47cb704ab6501edf2db9d5409cc2b160d2cc8d8707"
-        },
-        {
-          "path": "drawing-app/script.js",
-          "bytes": 1690,
-          "sha256": "a7a6f78272640bd5d9f7b98e75cb0adfb3d71296e8e28a7c5807e4f6b230706c"
-        },
+      "cloneUrl": "https://github.com/bradtraversy/50projects50days.git",
+      "sourceFiles": [
         {
           "path": "LICENSE",
-          "bytes": 1070,
-          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450"
+          "sourcePath": "LICENSE",
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450",
+          "bytes": 1070
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "drawing-app/index.html",
+          "sha256": "3815ccde258577829f361dca8ce1c3ddc0fea85fe304dea3691f569ed7e826ce",
+          "bytes": 582
+        },
+        {
+          "path": "script.js",
+          "sourcePath": "drawing-app/script.js",
+          "sha256": "a7a6f78272640bd5d9f7b98e75cb0adfb3d71296e8e28a7c5807e4f6b230706c",
+          "bytes": 1690
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "drawing-app/style.css",
+          "sha256": "e39838d505d6524046e62b47cb704ab6501edf2db9d5409cc2b160d2cc8d8707",
+          "bytes": 783
         }
       ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/templates/drawing-app/adapter.json",
+      "adapterSha256": "204923cba093108cbbdcf205d68ebaf1357a43bdb43a171d549e6029204c609c",
+      "adapterBytes": 24355,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/drawing-app/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/drawing-app.zip",
+      "sha256": "040285ec0d76b3e36e7bedc2a03f3f29bfe27b11a6b2366b7be4106f2d471a60",
+      "bytes": 10535
+    },
+    {
+      "id": "basic-calculator",
+      "title": "Calculator",
+      "summary": "Editable arithmetic calculator with decimals, chained operations and repeated equals.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Editable arithmetic calculator with decimals, chained operations and repeated equals.",
+        "Floating-point arithmetic; not accounting software."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/basic-calculator/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/basic-calculator/desktop.png",
       "license": "MIT",
-      "setup": "Node 22 or newer, then npm start; no npm dependencies, account, database or API key",
-      "scope": "Working local browser app; no account or sync"
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/basic-calculator/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/basic-calculator/index.html",
+          "sha256": "580c2d11f96c7bb0ea14433b6c938a84533368a4fab9a483b373c25cb10b25a3",
+          "bytes": 1334
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/basic-calculator/index.js",
+          "sha256": "df8de13faa91ffc2ff43980a03cafd0feee1ea96b3a6e75151a16b69f6ca7d7f",
+          "bytes": 2021
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/basic-calculator/style.css",
+          "sha256": "e3ea258687c5e8973aac066fd48fcf206d1421ba620afed07ba3173c5cf1634c",
+          "bytes": 788
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/basic-calculator/adapter.json",
+      "adapterSha256": "c61520c3e5e45d27ecd656e0dc7d3e03367bc0c35d1ea932d602d7c3176fc266",
+      "adapterBytes": 19954,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/basic-calculator/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/basic-calculator.zip",
+      "sha256": "eed91cf43dbc66a8d89ea2b68c5dbd9fd16ca4715cb3e3fa5a7e2c6ec916b4b9",
+      "bytes": 10372
+    },
+    {
+      "id": "bill-splitter",
+      "title": "Bill splitter",
+      "summary": "Split a sample bill and tip between people with a per-person total.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Split a sample bill and tip between people with a per-person total.",
+        "Session-only; currency label is rupees; no payment service."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/bill-splitter/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/bill-splitter/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/bill-splitter/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/bill-spilt/index.html",
+          "sha256": "bd45ab0d55d66643c768319fa94a4dc18eae44bf34c9902df3ff7fd038e54497",
+          "bytes": 2141
+        },
+        {
+          "path": "script.js",
+          "sourcePath": "apps/javascript/src/challenges/bill-spilt/script.js",
+          "sha256": "0dbc2a9eadd3e77536e96cd206ff71373adb65585e1d58adb75b0c3d60a3c149",
+          "bytes": 3071
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/bill-spilt/style.css",
+          "sha256": "255800bf694909b0b2a3c59e47db9ca0f24ae57388d28a8b8bda6f1f01bba51b",
+          "bytes": 3291
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/bill-splitter/adapter.json",
+      "adapterSha256": "7289b99dff21edabbb39fd20aebaeb6bf130117482e9c1985cc2068ef2a85e51",
+      "adapterBytes": 20806,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/bill-splitter/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/bill-splitter.zip",
+      "sha256": "da9536302e4c7cf0fd846abbc2a524b11cb8065c8a07307db718dbaae554d327",
+      "bytes": 11208
+    },
+    {
+      "id": "finance-tracker",
+      "title": "Finance tracker",
+      "summary": "Record income and expenses and calculate a session balance locally.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Record income and expenses and calculate a session balance locally.",
+        "Session-only; no saved transactions or bank connection."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/finance-tracker/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/finance-tracker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/finance-tracker/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/finance-tracker/index.html",
+          "sha256": "a4b056edcaff6194f6378665a2764f5749fb09c566d514363b818632a8241e56",
+          "bytes": 1131
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/finance-tracker/index.js",
+          "sha256": "f5777ecd6b434831da414a99b8702a717bde00adeda1a42b2c3d87b87be3b607",
+          "bytes": 1468
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/finance-tracker/style.css",
+          "sha256": "75e5a756ac9828ee305ce6a20fe980d79371a638f056b54a54d306cc16566e39",
+          "bytes": 1683
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/finance-tracker/adapter.json",
+      "adapterSha256": "04dae4db0b9f27cf7a973d2b715615c724a963ec56e5ff5459d86114b6bfa312",
+      "adapterBytes": 21667,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/finance-tracker/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/finance-tracker.zip",
+      "sha256": "8571dd3af39127133d4014b87849403a4f0d8f24d4c961a92d4aaf165a9bfd46",
+      "bytes": 10730
+    },
+    {
+      "id": "countdown-timer",
+      "title": "Countdown timer",
+      "summary": "Set minutes and seconds, start, pause and reset a local countdown.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Set minutes and seconds, start, pause and reset a local countdown.",
+        "Runs while the page is active; browser background timing can drift."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/countdown-timer/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/countdown-timer/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/countdown-timer/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/count-down-timer/index.html",
+          "sha256": "1845632188d4fce86c9fbe78d9efc73d4aae1ce04b4bf13e395c20fa842fc8fd",
+          "bytes": 889
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/count-down-timer/index.js",
+          "sha256": "3161cae9c2ceffccfd2da48e7be7eb494877c197c0220494f501514ca3e41660",
+          "bytes": 3699
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/count-down-timer/style.css",
+          "sha256": "419443435e79426ce0d2fc812259d84b25b9979ddfaadfd44a0e1c060dd5a1e1",
+          "bytes": 560
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/countdown-timer/adapter.json",
+      "adapterSha256": "697044b19a26ffa8eadf44e4b6840bf2ca7d667686252e5325b5ed65ab6eb091",
+      "adapterBytes": 21997,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/countdown-timer/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/countdown-timer.zip",
+      "sha256": "5188c1206b944d36d2b26b14aa698bd16ba6c2aa8c2b2009afd0bf7d2fb950a1",
+      "bytes": 10888
+    },
+    {
+      "id": "text-transformer",
+      "title": "Text transformer",
+      "summary": "Convert text to camel, Pascal, snake, kebab, upper and lower case.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Convert text to camel, Pascal, snake, kebab, upper and lower case.",
+        "Local text utility; no persistence or translation."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/text-transformer/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/text-transformer/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/text-transformer/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/string-transformers/index.html",
+          "sha256": "d3eb6728f4c89b7c7d134f45a0913f8dc53296d41ef20a91a6d02312dade92db",
+          "bytes": 2907
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/string-transformers/index.js",
+          "sha256": "50c31bbba804779998df164d03bf85f6a9f2cc904fdd0514dbc5e6a18a1ca83f",
+          "bytes": 1826
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/string-transformers/style.css",
+          "sha256": "67554684026d8989d2d4b779ef381b1391b241a00238a980ef5d87241db0d65f",
+          "bytes": 1569
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/text-transformer/adapter.json",
+      "adapterSha256": "e815c090cb11fa030525175a2f26395b10aa722a7193215cf7f0f367e4e1b216",
+      "adapterBytes": 19911,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/text-transformer/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/text-transformer.zip",
+      "sha256": "3e20cbfbb86872cc33e35c061a63b582a8d6bab031364b706143f1babac0cefa",
+      "bytes": 10995
+    },
+    {
+      "id": "typing-practice",
+      "title": "Typing practice",
+      "summary": "Practice typing with a physical or on-screen keyboard and a timed letter count.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Practice typing with a physical or on-screen keyboard and a timed letter count.",
+        "Local practice sentences; letter count rather than standardized WPM."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/typing-practice/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/typing-practice/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/typing-practice/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "Timer.js",
+          "sourcePath": "apps/javascript/src/challenges/typing-speed-test/Timer.js",
+          "sha256": "67f77c64a4941be83dd54cfa3ab5ffc5617815d7be70930a161cf485db51a5a5",
+          "bytes": 637
+        },
+        {
+          "path": "VirtualKeyboard.js",
+          "sourcePath": "apps/javascript/src/challenges/typing-speed-test/VirtualKeyboard.js",
+          "sha256": "b09bb365032abab8f6672d94a2eb86766bf7211e3d641772279de2f93ed54ebe",
+          "bytes": 1409
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/typing-speed-test/index.html",
+          "sha256": "fec2d3ad7be5facd2eb2b21ade2eb5e2df68d752fd326ade6b12aad34c296f1a",
+          "bytes": 703
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/typing-speed-test/index.js",
+          "sha256": "3a680c6c69f77b8388c1b97537ee8ddc72b3ed9f104444fbdc76208841d60837",
+          "bytes": 1861
+        },
+        {
+          "path": "sentences.js",
+          "sourcePath": "apps/javascript/src/challenges/typing-speed-test/sentences.js",
+          "sha256": "2b62707a4e3ef96635ec280f010f61b379815cd8bd188834c7aa7ee18537381f",
+          "bytes": 3090
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/typing-speed-test/style.css",
+          "sha256": "2fb3384e10434d8cbb2ab44518341f802b79bcd4dba2f2e7424e4ea46e10ad5d",
+          "bytes": 781
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/typing-practice/adapter.json",
+      "adapterSha256": "828b61d7021d9289fad65f9610beb355b48a442125e5b4feea634aa9b754aa9f",
+      "adapterBytes": 21926,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/typing-practice/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/typing-practice.zip",
+      "sha256": "2057ddbb66429348ae3c9a501ec65c5629a2af2606e998137ec3e190659d3d03",
+      "bytes": 13290
+    },
+    {
+      "id": "tic-tac-toe",
+      "title": "Tic-tac-toe",
+      "summary": "Play a local two-person game with win, draw and reset behavior.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Play a local two-person game with win, draw and reset behavior.",
+        "Two players on this device; no AI or online multiplayer."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/tic-tac-toe/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/tic-tac-toe/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/tic-tac-toe/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/tic-tac-toe/index.html",
+          "sha256": "166b9b6b1f324d8fb1c32e9b102ffbe6c5d6eb1d6dcd8064dbb3652d4b3d073a",
+          "bytes": 485
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/tic-tac-toe/index.js",
+          "sha256": "828bd78359490a2d87235210cb2c7fe4d90e9fad6ba60777ee50d5d5c006e54f",
+          "bytes": 3721
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/tic-tac-toe/style.css",
+          "sha256": "68a29abd7288225512271e70552a5373e60922284ea60d82b95737fe71705f12",
+          "bytes": 289
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/tic-tac-toe/adapter.json",
+      "adapterSha256": "e2f9c77031d8d420c117e1efea6bc46a8e4f449fe7b3b634a8249a3cb2df1037",
+      "adapterBytes": 19660,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/tic-tac-toe/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/tic-tac-toe.zip",
+      "sha256": "7ee0042d4024f48702e74d51a47460259423afa11423fd0c8f665007e534b226",
+      "bytes": 10291
+    },
+    {
+      "id": "connect-four",
+      "title": "Four in a row",
+      "summary": "Drop pieces into columns in a local two-player four-in-a-row game.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Drop pieces into columns in a local two-player four-in-a-row game.",
+        "Two players on this device; no online multiplayer."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/connect-four/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/connect-four/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/connect-four/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "helper.js",
+          "sourcePath": "apps/javascript/src/challenges/connect-four/helper.js",
+          "sha256": "6f3732fbd35fd209c2ea81e7167f95d025a19da6542f151310034624e908f052",
+          "bytes": 1077
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/connect-four/index.html",
+          "sha256": "be33f5a1b2b2c5f07d95ddf56408a9b9a3f321afa9328a339a26c2de7dca97fd",
+          "bytes": 963
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/connect-four/index.js",
+          "sha256": "02c21ef317ff2b40f0ccadf108cd978fb5c83e15b86d8f8c613d9c4b2cb9fad4",
+          "bytes": 4575
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/connect-four/style.css",
+          "sha256": "acd4672c731c7964887c34a35eb976b287f8e583f10dd2119da3111885b3d76a",
+          "bytes": 409
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/connect-four/adapter.json",
+      "adapterSha256": "5f6b45e8f1c3747061cbffd3a284eeb92f0c039d0bd2ae5ffa81a7758e2a4d77",
+      "adapterBytes": 21664,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/connect-four/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/connect-four.zip",
+      "sha256": "88c225d2acef26f81b82976839fb52e91f577e55057b34719daaee414d454000",
+      "bytes": 11548
+    },
+    {
+      "id": "memory-pairs",
+      "title": "Memory pairs",
+      "summary": "Reveal a four-by-four board of symbols, match pairs and count attempts.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Reveal a four-by-four board of symbols, match pairs and count attempts.",
+        "Local game; results are not saved."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/memory-pairs/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/memory-pairs/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/memory-pairs/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "dom.js",
+          "sourcePath": "apps/javascript/src/helpers/dom.js",
+          "sha256": "d5d58ce5b5a9a32efc7362e9d10fa3d937e2992860fafed6128ce185e09ea994",
+          "bytes": 1516
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/match-pair/index.html",
+          "sha256": "d22440e6e3ea6c939cc64f9ca18de5cf73bcafe77af70bfa853bf87de7c55ab8",
+          "bytes": 504
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/match-pair/index.js",
+          "sha256": "c1ed80c0d9f3ab26ccfe7815729923b1578e23c746f0b09ca7fcf7efcc2f8968",
+          "bytes": 3757
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/match-pair/style.css",
+          "sha256": "db36fca6218d63489b98774902b16e971160d78ced46b9804e661a729f972f61",
+          "bytes": 1233
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/memory-pairs/adapter.json",
+      "adapterSha256": "8c7038e15745fc6dc67b965599ec5299728f94127752cb9d5857deb33974ef08",
+      "adapterBytes": 20906,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/memory-pairs/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/memory-pairs.zip",
+      "sha256": "5c56155e28b070f1af738d07b5a2f26da30f90c2e042cdff2e419f1a3fddfe2f",
+      "bytes": 11586
+    },
+    {
+      "id": "color-spotter",
+      "title": "Color spotter",
+      "summary": "Find the differently shaded tile as the board grows and track a local best score.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Find the differently shaded tile as the board grows and track a local best score.",
+        "Color-perception game; not suitable as a vision test."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/color-spotter/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/color-spotter/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/color-spotter/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/color-spotter/index.html",
+          "sha256": "3e0004e1642e14d8532b56b0b0d528b32d82abba36781ee0dc7ffa2b85d8876a",
+          "bytes": 496
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/color-spotter/index.js",
+          "sha256": "6f0825e36e7b737f7cce67d6a7de55c61fc204761767ee10408995ec87f8d54a",
+          "bytes": 2610
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/color-spotter/style.css",
+          "sha256": "a4a1c0faf006a1989d8fe6a032e1bb8f39acc4962f9cae88dd449bf316313f79",
+          "bytes": 726
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/color-spotter/adapter.json",
+      "adapterSha256": "9fff8fcf579c1725da05ef7f5cf07c6fc77815db3ed33d6f82755dad89b73e75",
+      "adapterBytes": 23381,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/color-spotter/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/color-spotter.zip",
+      "sha256": "4961cfde78bf22b57f81dbc7dd3b954f623c98ea431ef41b317989bbe90f9d0c",
+      "bytes": 11182
+    },
+    {
+      "id": "pixel-art",
+      "title": "Pixel art",
+      "summary": "Choose a palette color and paint cells with mouse, touch or keyboard.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Choose a palette color and paint cells with mouse, touch or keyboard.",
+        "Session-only artwork; no export or saved gallery."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/pixel-art/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/pixel-art/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/pixel-art/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "board.js",
+          "sourcePath": "apps/javascript/src/challenges/pixel-art/board.js",
+          "sha256": "932c63a156641ca32d9f2c31d39c506c7bfa5fa6f959e787d214e2cd46bdbb5b",
+          "bytes": 1146
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/pixel-art/index.html",
+          "sha256": "4bcd3ba1897b66dc5527bf95abd8bd48747741bd032b8feb32fa8ec902e7a4f6",
+          "bytes": 518
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/pixel-art/index.js",
+          "sha256": "5ed3f14b333128e754f13240624c5da85d3f7bea94308a3d22cbe03a287e1262",
+          "bytes": 1314
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/pixel-art/style.css",
+          "sha256": "880fa3089b0c050a12a9e5634a357352c7b6bde3f4c20b03f7183886efbf9e23",
+          "bytes": 123
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/pixel-art/adapter.json",
+      "adapterSha256": "ced5c2f9537a6da1fed2037a244597bc9fc6847b1f175d54d22b27711fa814be",
+      "adapterBytes": 23549,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/pixel-art/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/pixel-art.zip",
+      "sha256": "04901f181d2bf08d65658615b9428e5cd027a01527f41d4ec146b4650f0d8bfc",
+      "bytes": 10447
+    },
+    {
+      "id": "focus-clock",
+      "title": "Focus clock",
+      "summary": "Adjust focus and break lengths, run a session, pause and reset.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Adjust focus and break lengths, run a session, pause and reset.",
+        "Silent timer; browser background timing can drift; no notifications."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/focus-clock/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/focus-clock/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/focus-clock/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/25-5-clock/index.html",
+          "sha256": "bf76353acd62ea3696b1457600038af1ffcbb41f304dbaac58d13e679865b2f5",
+          "bytes": 2191
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/25-5-clock/index.js",
+          "sha256": "8f324bfa8c87b4f8b42b7c7a606f7af44be428a80a9aab7e55287107da7c4525",
+          "bytes": 3415
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/25-5-clock/style.css",
+          "sha256": "79f7e1ed1f593de3b89fb5551773c74796dee9a8676f278126c97a17dd42d138",
+          "bytes": 1571
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/focus-clock/adapter.json",
+      "adapterSha256": "59350d420091a1a641ff2674e7263fe971303820bba37979d02a498ce9e8f553",
+      "adapterBytes": 24834,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/focus-clock/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/focus-clock.zip",
+      "sha256": "7faa10eec6eed99f5ea378c1e91bec4a59dbf468f8f3fc83265fe2701a07ae15",
+      "bytes": 11145
+    },
+    {
+      "id": "date-picker",
+      "title": "Calendar date picker",
+      "summary": "Browse months and years, choose a date and return to today.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Browse months and years, choose a date and return to today.",
+        "A date picker starter; no events, scheduling or persistence."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/date-picker/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/date-picker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/date-picker/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "helper.js",
+          "sourcePath": "apps/javascript/src/challenges/calendar/helper.js",
+          "sha256": "de5176266321eebab23a11589e636109a81702a0978f1141c8c6634038f61add",
+          "bytes": 1748
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/calendar/index.html",
+          "sha256": "8f07f7daaef396dc780e771fbf051f31187bbfeac2d011ea9a55b8d32e9617f3",
+          "bytes": 783
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/calendar/index.js",
+          "sha256": "1a25bc7246c6e1fda18d09d1a1bf3eeb2462db2b06d0a683793cabb5b071cf46",
+          "bytes": 3732
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/calendar/style.css",
+          "sha256": "30506c3dbd9e04199b177a7d0112da9f4c6274c9d5739be9dc1c98d247a25b5a",
+          "bytes": 1191
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/date-picker/adapter.json",
+      "adapterSha256": "429d13eb36b0a239ce2e0265e1c97dc390a675bba6e54f722f89ba9eb893d91a",
+      "adapterBytes": 21250,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/date-picker/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/date-picker.zip",
+      "sha256": "abf09533d82dd821157abbc639bde9d8765c54a9cf7c860dcab493278f5a9195",
+      "bytes": 11357
+    },
+    {
+      "id": "json-builder",
+      "title": "JSON builder",
+      "summary": "Build nested key/value objects and display the generated JSON locally.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Build nested key/value objects and display the generated JSON locally.",
+        "String values only; no file import, export or server connection."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/json-builder/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/json-builder/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/json-builder/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/json-creator/index.html",
+          "sha256": "3482bc40e65c5f3ace4de5d96e042e7b24c46811e0d268dd25519e9cae2aef98",
+          "bytes": 759
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/json-creator/index.js",
+          "sha256": "aba0331b606e207dcc2fabc613e818942a46e32bb913aaa735b0ae83d348a335",
+          "bytes": 2785
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/json-creator/style.css",
+          "sha256": "af667061d88ab0699ed3d5e631d88c7bfbff424970626965980cebdfa373d3d7",
+          "bytes": 939
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/json-builder/adapter.json",
+      "adapterSha256": "84c9d2ad5c25c413da8accc95d275f9e28bb968c9166198f35da2cac03afbe6b",
+      "adapterBytes": 20562,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/json-builder/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/json-builder.zip",
+      "sha256": "3abaa9b67f6187f28d94ea379389fe71abe6be312df818ed92e86e25fa6e9bdf",
+      "bytes": 10534
+    },
+    {
+      "id": "number-guess",
+      "title": "Number guessing game",
+      "summary": "Guess a number from zero to one hundred with feedback and ten attempts.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Guess a number from zero to one hundred with feedback and ten attempts.",
+        "Local browser game; no saved scores."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/number-guess/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/number-guess/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/number-guess/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/guess-the-number/index.html",
+          "sha256": "8a06b0b0117a08b68e082b7bf8db99c67cd2059e74926ef314295edb9fafe090",
+          "bytes": 1750
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/guess-the-number/index.js",
+          "sha256": "5ba954abb544b46937e064fadf4015f3254391cafd568bcfd2641085839e4bc6",
+          "bytes": 4253
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/guess-the-number/style.css",
+          "sha256": "1b17699a9d34aa5f6b53436fa42d364d23e0666de82f97c36ce15eca45464b12",
+          "bytes": 2045
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/number-guess/adapter.json",
+      "adapterSha256": "30b2fa9560cdda3c6be4aa368233519e5231ebab70d5bfda7d703faaeba1f4be",
+      "adapterBytes": 20474,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/number-guess/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/number-guess.zip",
+      "sha256": "408f5fb74b04d21739ba6e0195434d9ec895846034bb3c1ae91501ef4f9def44",
+      "bytes": 11748
+    },
+    {
+      "id": "phone-formatter",
+      "title": "Phone number formatter",
+      "summary": "Format a ten-digit phone number and show incomplete-input feedback.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Format a ten-digit phone number and show incomplete-input feedback.",
+        "Fixed demonstration format; no calling, country lookup or telecom validation."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/phone-formatter/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/phone-formatter/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/phone-formatter/README.md",
+      "upstreamCommit": "a66d0068af09db3d3adf262a5dca92ca502bb822",
+      "cloneUrl": "https://github.com/sadanandpai/frontend-mini-challenges.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b58b2257f9e815a9032d350703b4f1187465e3448a2269c3cb785fd0765e6475",
+          "bytes": 1069
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "apps/javascript/src/challenges/telephone-formatter/index.html",
+          "sha256": "88788465d449669894658de9bd9d5c4c2e0826aca8f862fed46c2fb4ade7e12e",
+          "bytes": 1206
+        },
+        {
+          "path": "index.js",
+          "sourcePath": "apps/javascript/src/challenges/telephone-formatter/index.js",
+          "sha256": "aa017f573b3bff6c3684d26d7ac581d4ea004a3dbaa6413e7c927551bc26db3c",
+          "bytes": 1689
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "apps/javascript/src/challenges/telephone-formatter/style.css",
+          "sha256": "779da05f4fa5c68ab23b3847a3cc946b7fbece91cef0360ecda84bc3ba159e22",
+          "bytes": 2557
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/phone-formatter/adapter.json",
+      "adapterSha256": "cc532ae548476d71483f4b41574991de6b0ba93c9ce0d2622dbb4e20b1e04858",
+      "adapterBytes": 19468,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/phone-formatter/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/phone-formatter.zip",
+      "sha256": "8865f2158b529c047c6b058279a47166e01cec4f237b628da97a167c6cb271a3",
+      "bytes": 11104
+    },
+    {
+      "id": "web-quiz",
+      "title": "Web basics quiz",
+      "summary": "Answer four built-in web-development questions and review the score.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Answer four built-in web-development questions and review the score.",
+        "Fixed sample questions; no question service or saved results."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/web-quiz/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/web-quiz/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/web-quiz/README.md",
+      "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
+      "cloneUrl": "https://github.com/bradtraversy/50projects50days.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450",
+          "bytes": 1070
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "79873afab21dbc5215e48d0fe7f396156b02b68c4af1c419438eb1e5c0e35ae7",
+          "bytes": 13081
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "quiz-app/index.html",
+          "sha256": "dd73807c7374595f79ffdc95987861324f732d561d39fed732a385be3621a068",
+          "bytes": 1138
+        },
+        {
+          "path": "script.js",
+          "sourcePath": "quiz-app/script.js",
+          "sha256": "d28f8312bef2ee04484e40174d80d87f06327c11130f1653e4f758094fee573f",
+          "bytes": 2415
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "quiz-app/style.css",
+          "sha256": "1d09e6797747dd8babfbd1bd4d197639ee3a56a50844d54e6c0a6d05cb136b84",
+          "bytes": 1075
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/web-quiz/adapter.json",
+      "adapterSha256": "83acc6169ef4ec928f51f3eab8e0818c41f7b6615df5ad27eba4dd55d3e40c93",
+      "adapterBytes": 20974,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/web-quiz/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/web-quiz.zip",
+      "sha256": "3bae021f3e5f5cfb2df0c9d0595dea879cb430f0038138299c0c8fa54d8f18e4",
+      "bytes": 13049
+    },
+    {
+      "id": "choice-picker",
+      "title": "Choice picker",
+      "summary": "Enter a comma-separated list and pick one of the choices at random.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Enter a comma-separated list and pick one of the choices at random.",
+        "For casual choices; not cryptographic or audited random selection."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/choice-picker/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/choice-picker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/choice-picker/README.md",
+      "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
+      "cloneUrl": "https://github.com/bradtraversy/50projects50days.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450",
+          "bytes": 1070
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "79873afab21dbc5215e48d0fe7f396156b02b68c4af1c419438eb1e5c0e35ae7",
+          "bytes": 13081
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "random-choice-picker/index.html",
+          "sha256": "bef940c67e555efa25f137f238de2b50ec18caa4a3ae6bb0d8b43bb2fe9e779e",
+          "bytes": 557
+        },
+        {
+          "path": "script.js",
+          "sourcePath": "random-choice-picker/script.js",
+          "sha256": "026ff3f4a6fcad51cb084d249df8c4291ceda57f65f58f330a0378295f76cab2",
+          "bytes": 1448
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "random-choice-picker/style.css",
+          "sha256": "fbd4b95b914625a36036fb2dce2624c190029c16a143182a4040e2dad76568e6",
+          "bytes": 837
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/choice-picker/adapter.json",
+      "adapterSha256": "a28307016743166a570cfe4974940edf6f2cf760d9137d01c4f6c8dd76bb4eb9",
+      "adapterBytes": 22616,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/choice-picker/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/choice-picker.zip",
+      "sha256": "c427f1d4fb07af528948876a330192d83304093b92e77c287d8e0ff63c251bfe",
+      "bytes": 13077
+    },
+    {
+      "id": "water-tracker",
+      "title": "Water tracker",
+      "summary": "Mark 250 ml glasses and see progress against a sample two-liter goal.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Mark 250 ml glasses and see progress against a sample two-liter goal.",
+        "Session-only; edit the sample goal in the source."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/water-tracker/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/water-tracker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/water-tracker/README.md",
+      "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
+      "cloneUrl": "https://github.com/bradtraversy/50projects50days.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450",
+          "bytes": 1070
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "79873afab21dbc5215e48d0fe7f396156b02b68c4af1c419438eb1e5c0e35ae7",
+          "bytes": 13081
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "drink-water/index.html",
+          "sha256": "0403e4a5c5b65f13292b9ab11415e60d41d51fb5bb6914b254ce74a9a64af79b",
+          "bytes": 1046
+        },
+        {
+          "path": "script.js",
+          "sourcePath": "drink-water/script.js",
+          "sha256": "912ca4235b68157f2399d39147160ff547fe46071d1f5181855389a10bec059c",
+          "bytes": 1462
+        },
+        {
+          "path": "style.css",
+          "sourcePath": "drink-water/style.css",
+          "sha256": "6090576411c61e991c0f60743a2d8b8889d9c3deef7319a692f1c03654416aca",
+          "bytes": 1685
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/water-tracker/adapter.json",
+      "adapterSha256": "40064b4b82feb036984a0aaa80aabbf3988924182d3b7c1ecdfdd9fefce9e90b",
+      "adapterBytes": 23193,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/water-tracker/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/water-tracker.zip",
+      "sha256": "ce4a29141c3c7ca4a02a2358cf203194efde765dd3332d7481db0e9850d5cfa4",
+      "bytes": 13074
+    },
+    {
+      "id": "keyboard-inspector",
+      "title": "Keyboard event inspector",
+      "summary": "Inspect browser key, code and legacy keyCode fields for the focused page.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Inspect browser key, code and legacy keyCode fields for the focused page.",
+        "Page-local keyboard events only; no background key capture or storage."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/keyboard-inspector/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/keyboard-inspector/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/keyboard-inspector/README.md",
+      "upstreamCommit": "c92b0bc3a87fc95d44b89552b7b6a2eeb36ca481",
+      "cloneUrl": "https://github.com/bradtraversy/50projects50days.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "b6b04184a9d43ff37c5ac2580980cc9e4f905aab1d055f963b8c749d5cb19450",
+          "bytes": 1070
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "79873afab21dbc5215e48d0fe7f396156b02b68c4af1c419438eb1e5c0e35ae7",
+          "bytes": 13081
+        },
+        {
+          "path": "dark-style.css",
+          "sourcePath": "event-keycodes/dark-style.css",
+          "sha256": "f19604bc7b9a3c98dc190cabb1860e92e1ef392991d403f18b90732bb07bea13",
+          "bytes": 777
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "event-keycodes/index.html",
+          "sha256": "14dbd7d04b7eab8558d7827d39304c077711e2992d772a9394f0f906c2c28f5f",
+          "bytes": 415
+        },
+        {
+          "path": "script.js",
+          "sourcePath": "event-keycodes/script.js",
+          "sha256": "13b2d61cf1f2d2e549dae58178652733ab580dae0aff572b5a5defc77acb14a4",
+          "bytes": 373
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/keyboard-inspector/adapter.json",
+      "adapterSha256": "b7cb220840e30acdafbeb75be0426e2ea455bc7198084d486477a40f92bf3dbb",
+      "adapterBytes": 25100,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/keyboard-inspector/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/keyboard-inspector.zip",
+      "sha256": "d51a48732d13e7ee09b0710bd0661f6f4fe1cf0c0fff01ca9bcf728c03240cb1",
+      "bytes": 12902
+    },
+    {
+      "id": "kanban-board",
+      "title": "Kanban board",
+      "summary": "Create, edit, move, reorder and delete tasks across three browser-local columns.",
+      "category": "Operations",
+      "status": "listed",
+      "features": [
+        "Create, edit, move, reorder and delete tasks across three browser-local columns.",
+        "Stored on this browser only; no accounts, cloud sync or collaboration."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/kanban-board/",
+      "repositoryUrl": "https://github.com/dcode-youtube/kanban-board",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/kanban-board/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/kanban-board/README.md",
+      "upstreamCommit": "fceec91ac13631c8ac2f0788d3835346f4ebf349",
+      "cloneUrl": "https://github.com/dcode-youtube/kanban-board.git",
+      "sourceFiles": [
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENSE",
+          "sha256": "96948514022a65cd22677bb0f62b27cabf2297853e32c31a5eae55da2f6b8f11",
+          "bytes": 1064
+        },
+        {
+          "path": "css/main.css",
+          "sourcePath": "css/main.css",
+          "sha256": "bae12397215b9a7c0d03b773f472d90bbeeb3a6e7cf2f607ca2c369af43d8173",
+          "bytes": 858
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "index.html",
+          "sha256": "4d89c815b02c8d6b6cfea5d9d88626156b28db56399084e1d34a04bb95c04565",
+          "bytes": 724
+        },
+        {
+          "path": "js/api/KanbanAPI.js",
+          "sourcePath": "js/api/KanbanAPI.js",
+          "sha256": "4a460d4e83063276f0f58f1a2987455c2e03e69b5d44a1412d5f3d9e15c7b653",
+          "bytes": 2130
+        },
+        {
+          "path": "js/main.js",
+          "sourcePath": "js/main.js",
+          "sha256": "5634a06088b91c19d28d69c7d78f3c54be4d7e6476237d95711c8a4280965335",
+          "bytes": 95
+        },
+        {
+          "path": "js/view/Column.js",
+          "sourcePath": "js/view/Column.js",
+          "sha256": "c9e7e563269193d49d6616aeb1b06c02b2bee338137cd51bd50ee708a2e3cbf3",
+          "bytes": 1427
+        },
+        {
+          "path": "js/view/DropZone.js",
+          "sourcePath": "js/view/DropZone.js",
+          "sha256": "c771bb468af40702ffee1901ceeb3bca72b9c9d7edbb5e564a2708b42d4b60e3",
+          "bytes": 1465
+        },
+        {
+          "path": "js/view/Item.js",
+          "sourcePath": "js/view/Item.js",
+          "sha256": "e5e7cd4b657c20e1622d17baf2142da03d64f24eac484cb59fdecc2374c3db1d",
+          "bytes": 1660
+        },
+        {
+          "path": "js/view/Kanban.js",
+          "sourcePath": "js/view/Kanban.js",
+          "sha256": "7adb71778c9ba878bea5de00483b1c320b73bc71b23351e16f7091aa2936fb35",
+          "bytes": 477
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/adapters/community/kanban-board/adapter.json",
+      "adapterSha256": "03c8b2bbe8eca62e1f7a1a7c39d81d8e393ce2a09fa380a62596999d131a58f4",
+      "adapterBytes": 31422,
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/kanban-board/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/kanban-board.zip",
+      "sha256": "e9a2550f32b966164a17d86562637891890800eb6bf9d86a76056f027369d727",
+      "bytes": 15118
     }
   ]
 }

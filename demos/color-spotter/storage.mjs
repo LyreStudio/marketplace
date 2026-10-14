@@ -1,0 +1,4 @@
+// MIT: Lyre integration. Keep malformed or inaccessible storage untouched.
+const blocked=new Set();const memory=new Map();
+export function read(key,fallback,validate){try{const raw=localStorage.getItem(key);if(raw===null)return memory.get(key)??fallback;const value=JSON.parse(raw);if(!validate(value))throw Error('Invalid data');memory.set(key,value);return value;}catch{blocked.add(key);document.querySelector('.lyre-status').textContent='Saved data could not be read. Existing storage is preserved; changes stay in this session.';return memory.get(key)??fallback;}}
+export function save(key,value){memory.set(key,value);if(blocked.has(key))return;try{localStorage.setItem(key,JSON.stringify(value));}catch{blocked.add(key);document.querySelector('.lyre-status').textContent='Changes stay in this session because browser storage is unavailable.';}}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"><title>Four in a row</title><meta name="lyre-marketplace-demo" content="connect-four"><link rel="stylesheet" href="lyre.css"><script src="lyre.js" type="module"></script></head>
+  <body><header class="lyre-heading"><h1>Four in a row</h1><p>Drop pieces into columns in a local two-player four-in-a-row game.</p><p>Two players on this device; no online multiplayer.</p></header><div class="lyre-status" role="status"></div>
+    <div class="container text-center">
+      <p>
+        The four in a row rules are very simple. It’s always played with 2 players and in a 7x6
+        grid. Each turn each player puts a piece of his color inside a column and it will fall until
+        it reaches the lowest available spot. The one who can put 4 pieces of the same color in a
+        row horizontally, vertically or diagonally wins. If no one manages to do it then the match
+        ends in a draw.
+      </p>
+
+      <div id="slots" class="slots"></div>
+      <div id="board" class="board"></div>
+
+      <div class="button-holder">
+        <button id="reset" class="btn btn-primary">Reset</button>
+      </div>
+
+      <h3 id="info"></h3>
+    </div>
+  </body>
+</html>

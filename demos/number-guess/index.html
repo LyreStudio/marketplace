@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="./index.js" type="module"></script>
+    <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"><title>Number guessing game</title><meta name="lyre-marketplace-demo" content="number-guess"><link rel="stylesheet" href="lyre.css"><script src="lyre.js" type="module"></script></head>
+  <body><header class="lyre-heading"><h1>Number guessing game</h1><p>Guess a number from zero to one hundred with feedback and ten attempts.</p><p>Local browser game; no saved scores.</p></header><div class="lyre-status" role="status"></div>
+    <main class="container">
+      <h1 class="sr-only">Guess the Number Game</h1>
+      <div class="game-container">
+        <div class="game-instructions">
+          <p>I'm thinking of a number between 0 and 100. Can you guess it?</p>
+          <p>You have <span id="remainingGuesses">10</span> guesses remaining.</p>
+        </div>
+
+        <form id="form" class="game-form" aria-labelledby="gameInstructions">
+          <div class="form-group">
+            <label for="input" class="form-label">Your guess (0-100):</label>
+            <input
+              type="number"
+              id="input"
+              class="form-input"
+              placeholder="Enter a number"
+              autocomplete="off"
+              min="0"
+              max="100"
+              required
+              aria-required="true"
+              aria-describedby="inputHelp"
+            />
+            <small id="inputHelp" class="form-hint">Enter a number between 0 and 100</small>
+          </div>
+
+          <div class="button-group">
+            <button type="button" data-lyre-submit id="submit" class="btn btn-primary">Submit Guess</button>
+            <button type="button" id="startGame" class="btn btn-secondary" disabled>
+              New Game
+            </button>
+          </div>
+
+          <div class="game-feedback" aria-live="polite">
+            <output id="output" class="feedback-message"></output>
+            <output id="guessDisplay" class="guesses"></output>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

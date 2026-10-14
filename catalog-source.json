@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2026101402,
+  "revision": 2026101403,
   "offerings": [
     {
       "id": "stockroom",
@@ -59,17 +59,17 @@
       "summary": "A responsive agency website with services, project modals, a team section and sample contact form.",
       "category": "Client Tools",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Services and project gallery",
         "Team and company timeline",
         "Sample contact form; no email service"
       ],
-      "previewUrl": "https://lyrestudio.github.io/agency-site/",
-      "repositoryUrl": "https://github.com/LyreStudio/agency-site",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/agency-site/5961375a5702c38b044f14fcc1b56e2593774901/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/agency-site/blob/5961375a5702c38b044f14fcc1b56e2593774901/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/agency-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-agency",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/agency-site/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/agency-site/README.md"
     },
     {
       "id": "freelancer-portfolio",
@@ -77,17 +77,17 @@
       "summary": "A one-page portfolio with a project gallery, detail modals and an about section.",
       "category": "Client Tools",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Responsive portfolio grid",
         "Project detail modals",
         "Sample contact form; no email service"
       ],
-      "previewUrl": "https://lyrestudio.github.io/freelancer-portfolio/",
-      "repositoryUrl": "https://github.com/LyreStudio/freelancer-portfolio",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/freelancer-portfolio/d17f1209c0b98041b93dcf3691f1d0aa4d388d3f/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/freelancer-portfolio/blob/d17f1209c0b98041b93dcf3691f1d0aa4d388d3f/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/freelancer-portfolio/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-freelancer",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/freelancer-portfolio/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/freelancer-portfolio/README.md"
     },
     {
       "id": "creative-site",
@@ -95,17 +95,17 @@
       "summary": "A studio or small-business website with a full-width introduction and a lightbox project gallery.",
       "category": "Client Tools",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Responsive studio landing page",
         "Project image lightbox",
         "Sample contact form; no email service"
       ],
-      "previewUrl": "https://lyrestudio.github.io/creative-site/",
-      "repositoryUrl": "https://github.com/LyreStudio/creative-site",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/creative-site/e81f16b06c4a0cc2f68634d3936b06cf5d5e4917/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/creative-site/blob/e81f16b06c4a0cc2f68634d3936b06cf5d5e4917/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/creative-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-creative",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/creative-site/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/creative-site/README.md"
     },
     {
       "id": "resume-site",
@@ -113,17 +113,17 @@
       "summary": "An editable resume website with experience, education, skills and anchored section navigation.",
       "category": "Personal Productivity",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Experience and education sections",
         "Mobile navigation",
         "Editable HTML resume; no account needed"
       ],
-      "previewUrl": "https://lyrestudio.github.io/resume-site/",
-      "repositoryUrl": "https://github.com/LyreStudio/resume-site",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/resume-site/e91e5695cbde6d2778e13731f4c283f73ac2210e/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/resume-site/blob/e91e5695cbde6d2778e13731f4c283f73ac2210e/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/resume-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-resume",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/resume-site/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/resume-site/README.md"
     },
     {
       "id": "clean-blog",
@@ -131,17 +131,17 @@
       "summary": "A multi-page blog website with home, about, article and sample contact pages. Edit posts as HTML.",
       "category": "Personal Productivity",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Home, article and about pages",
         "Responsive article typography",
         "Static HTML posts; no CMS or email service"
       ],
-      "previewUrl": "https://lyrestudio.github.io/clean-blog/",
-      "repositoryUrl": "https://github.com/LyreStudio/clean-blog",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/clean-blog/3c27f181884f77807398362ec2352a2401bd539a/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/clean-blog/blob/3c27f181884f77807398362ec2352a2401bd539a/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/clean-blog/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-clean-blog",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/clean-blog/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/clean-blog/README.md"
     },
     {
       "id": "business-frontpage",
@@ -149,17 +149,17 @@
       "summary": "A small-business website with service cards, sample pricing, testimonials and a sample contact form.",
       "category": "Client Tools",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Service and pricing sections",
         "Responsive business layout",
         "Sample contact form; no email service"
       ],
-      "previewUrl": "https://lyrestudio.github.io/business-frontpage/",
-      "repositoryUrl": "https://github.com/LyreStudio/business-frontpage",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/business-frontpage/89183d158d61bf257dbb216922273476db8ba165/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/business-frontpage/blob/89183d158d61bf257dbb216922273476db8ba165/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/business-frontpage/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-business-frontpage",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/business-frontpage/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/business-frontpage/README.md"
     },
     {
       "id": "shop-homepage",
@@ -167,17 +167,17 @@
       "summary": "A responsive storefront UI with a product grid and navigation. Checkout and inventory need a backend.",
       "category": "Prototypes",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Responsive product grid",
         "Shop navigation and sample prices",
         "Storefront UI only; no checkout or inventory"
       ],
-      "previewUrl": "https://lyrestudio.github.io/shop-homepage/",
-      "repositoryUrl": "https://github.com/LyreStudio/shop-homepage",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/shop-homepage/fa748ac8248e118eded2fcb3614199ea4f65a71c/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/shop-homepage/blob/fa748ac8248e118eded2fcb3614199ea4f65a71c/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/shop-homepage/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-shop-homepage",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/shop-homepage/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/shop-homepage/README.md"
     },
     {
       "id": "admin-dashboard",
@@ -185,17 +185,17 @@
       "summary": "A multi-page dashboard UI with sample tables, charts and account screens. It has no authentication backend.",
       "category": "Operations",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Dashboard and sample data tables",
         "Responsive sidebar and account page layouts",
         "UI only; no authentication or live business data"
       ],
-      "previewUrl": "https://lyrestudio.github.io/admin-dashboard/",
-      "repositoryUrl": "https://github.com/LyreStudio/admin-dashboard",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/admin-dashboard/f82114ab77db7adef376c1b00210d2f849d4bc5d/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/admin-dashboard/blob/f82114ab77db7adef376c1b00210d2f849d4bc5d/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/admin-dashboard/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-sb-admin",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/admin-dashboard/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/admin-dashboard/README.md"
     },
     {
       "id": "landing-page",
@@ -203,17 +203,17 @@
       "summary": "A product landing page with feature sections and sample signup forms, ready for your content.",
       "category": "Prototypes",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Feature and showcase sections",
         "Responsive product landing page",
         "Sample signup forms; no mailing-list service"
       ],
-      "previewUrl": "https://lyrestudio.github.io/landing-page/",
-      "repositoryUrl": "https://github.com/LyreStudio/landing-page",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/landing-page/bf272eaf13ac281884af6c8f2bc1848b3b0f4372/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/landing-page/blob/bf272eaf13ac281884af6c8f2bc1848b3b0f4372/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/landing-page/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-landing-page",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/landing-page/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/landing-page/README.md"
     },
     {
       "id": "grayscale-site",
@@ -221,17 +221,17 @@
       "summary": "A dark one-page website with project sections and a sample signup form for a product or creative project.",
       "category": "Prototypes",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Dark responsive landing page",
         "Project and contact sections",
         "Sample signup form; no mailing-list service"
       ],
-      "previewUrl": "https://lyrestudio.github.io/grayscale-site/",
-      "repositoryUrl": "https://github.com/LyreStudio/grayscale-site",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/grayscale-site/b520ddf8cf50b2075a08954d69bb895aeb3a8e0c/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/grayscale-site/blob/b520ddf8cf50b2075a08954d69bb895aeb3a8e0c/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/grayscale-site/",
+      "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-grayscale",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/grayscale-site/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/grayscale-site/README.md"
     },
     {
       "id": "todo-list",
@@ -239,17 +239,17 @@
       "summary": "A working browser task list. Add, complete and delete tasks; changes are saved in this browser without an account.",
       "category": "Personal Productivity",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Add, complete and delete tasks",
         "Browser-local saving with storage error feedback",
         "Touch and keyboard controls; no account"
       ],
-      "previewUrl": "https://lyrestudio.github.io/todo-list/",
-      "repositoryUrl": "https://github.com/LyreStudio/todo-list",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/todo-list/738dfbedada82ad7d7de99bf34fcfb7f15893e46/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/todo-list/blob/738dfbedada82ad7d7de99bf34fcfb7f15893e46/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/todo-list/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/todo-list/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/todo-list/README.md"
     },
     {
       "id": "drawing-app",
@@ -257,17 +257,374 @@
       "summary": "A working drawing canvas with pen size, color, clear and PNG export. Drawings stay on this device and are not autosaved.",
       "category": "Prototypes",
       "status": "listed",
-      "kind": "template",
       "features": [
         "Mouse, pen and touch drawing",
         "Choose colors and pen size",
         "Clear the canvas or save a PNG; no account"
       ],
-      "previewUrl": "https://lyrestudio.github.io/drawing-app/",
-      "repositoryUrl": "https://github.com/LyreStudio/drawing-app",
-      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/drawing-app/5d46ce033e422d3cea8ca9e62d4ec4e82d93fe70/screenshots/desktop.png",
-      "setupUrl": "https://github.com/LyreStudio/drawing-app/blob/5d46ce033e422d3cea8ca9e62d4ec4e82d93fe70/README.md",
-      "license": "MIT"
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/drawing-app/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/drawing-app/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/drawing-app/README.md"
+    },
+    {
+      "id": "basic-calculator",
+      "title": "Calculator",
+      "summary": "Editable arithmetic calculator with decimals, chained operations and repeated equals.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Editable arithmetic calculator with decimals, chained operations and repeated equals.",
+        "Floating-point arithmetic; not accounting software."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/basic-calculator/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/basic-calculator/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/basic-calculator/README.md"
+    },
+    {
+      "id": "bill-splitter",
+      "title": "Bill splitter",
+      "summary": "Split a sample bill and tip between people with a per-person total.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Split a sample bill and tip between people with a per-person total.",
+        "Session-only; currency label is rupees; no payment service."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/bill-splitter/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/bill-splitter/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/bill-splitter/README.md"
+    },
+    {
+      "id": "finance-tracker",
+      "title": "Finance tracker",
+      "summary": "Record income and expenses and calculate a session balance locally.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Record income and expenses and calculate a session balance locally.",
+        "Session-only; no saved transactions or bank connection."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/finance-tracker/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/finance-tracker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/finance-tracker/README.md"
+    },
+    {
+      "id": "countdown-timer",
+      "title": "Countdown timer",
+      "summary": "Set minutes and seconds, start, pause and reset a local countdown.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Set minutes and seconds, start, pause and reset a local countdown.",
+        "Runs while the page is active; browser background timing can drift."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/countdown-timer/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/countdown-timer/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/countdown-timer/README.md"
+    },
+    {
+      "id": "text-transformer",
+      "title": "Text transformer",
+      "summary": "Convert text to camel, Pascal, snake, kebab, upper and lower case.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Convert text to camel, Pascal, snake, kebab, upper and lower case.",
+        "Local text utility; no persistence or translation."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/text-transformer/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/text-transformer/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/text-transformer/README.md"
+    },
+    {
+      "id": "typing-practice",
+      "title": "Typing practice",
+      "summary": "Practice typing with a physical or on-screen keyboard and a timed letter count.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Practice typing with a physical or on-screen keyboard and a timed letter count.",
+        "Local practice sentences; letter count rather than standardized WPM."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/typing-practice/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/typing-practice/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/typing-practice/README.md"
+    },
+    {
+      "id": "tic-tac-toe",
+      "title": "Tic-tac-toe",
+      "summary": "Play a local two-person game with win, draw and reset behavior.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Play a local two-person game with win, draw and reset behavior.",
+        "Two players on this device; no AI or online multiplayer."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/tic-tac-toe/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/tic-tac-toe/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/tic-tac-toe/README.md"
+    },
+    {
+      "id": "connect-four",
+      "title": "Four in a row",
+      "summary": "Drop pieces into columns in a local two-player four-in-a-row game.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Drop pieces into columns in a local two-player four-in-a-row game.",
+        "Two players on this device; no online multiplayer."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/connect-four/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/connect-four/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/connect-four/README.md"
+    },
+    {
+      "id": "memory-pairs",
+      "title": "Memory pairs",
+      "summary": "Reveal a four-by-four board of symbols, match pairs and count attempts.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Reveal a four-by-four board of symbols, match pairs and count attempts.",
+        "Local game; results are not saved."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/memory-pairs/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/memory-pairs/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/memory-pairs/README.md"
+    },
+    {
+      "id": "color-spotter",
+      "title": "Color spotter",
+      "summary": "Find the differently shaded tile as the board grows and track a local best score.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Find the differently shaded tile as the board grows and track a local best score.",
+        "Color-perception game; not suitable as a vision test."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/color-spotter/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/color-spotter/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/color-spotter/README.md"
+    },
+    {
+      "id": "pixel-art",
+      "title": "Pixel art",
+      "summary": "Choose a palette color and paint cells with mouse, touch or keyboard.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Choose a palette color and paint cells with mouse, touch or keyboard.",
+        "Session-only artwork; no export or saved gallery."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/pixel-art/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/pixel-art/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/pixel-art/README.md"
+    },
+    {
+      "id": "focus-clock",
+      "title": "Focus clock",
+      "summary": "Adjust focus and break lengths, run a session, pause and reset.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Adjust focus and break lengths, run a session, pause and reset.",
+        "Silent timer; browser background timing can drift; no notifications."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/focus-clock/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/focus-clock/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/focus-clock/README.md"
+    },
+    {
+      "id": "date-picker",
+      "title": "Calendar date picker",
+      "summary": "Browse months and years, choose a date and return to today.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Browse months and years, choose a date and return to today.",
+        "A date picker starter; no events, scheduling or persistence."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/date-picker/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/date-picker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/date-picker/README.md"
+    },
+    {
+      "id": "json-builder",
+      "title": "JSON builder",
+      "summary": "Build nested key/value objects and display the generated JSON locally.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Build nested key/value objects and display the generated JSON locally.",
+        "String values only; no file import, export or server connection."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/json-builder/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/json-builder/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/json-builder/README.md"
+    },
+    {
+      "id": "number-guess",
+      "title": "Number guessing game",
+      "summary": "Guess a number from zero to one hundred with feedback and ten attempts.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Guess a number from zero to one hundred with feedback and ten attempts.",
+        "Local browser game; no saved scores."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/number-guess/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/number-guess/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/number-guess/README.md"
+    },
+    {
+      "id": "phone-formatter",
+      "title": "Phone number formatter",
+      "summary": "Format a ten-digit phone number and show incomplete-input feedback.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Format a ten-digit phone number and show incomplete-input feedback.",
+        "Fixed demonstration format; no calling, country lookup or telecom validation."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/phone-formatter/",
+      "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/phone-formatter/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/phone-formatter/README.md"
+    },
+    {
+      "id": "web-quiz",
+      "title": "Web basics quiz",
+      "summary": "Answer four built-in web-development questions and review the score.",
+      "category": "Education",
+      "status": "listed",
+      "features": [
+        "Answer four built-in web-development questions and review the score.",
+        "Fixed sample questions; no question service or saved results."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/web-quiz/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/web-quiz/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/web-quiz/README.md"
+    },
+    {
+      "id": "choice-picker",
+      "title": "Choice picker",
+      "summary": "Enter a comma-separated list and pick one of the choices at random.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Enter a comma-separated list and pick one of the choices at random.",
+        "For casual choices; not cryptographic or audited random selection."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/choice-picker/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/choice-picker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/choice-picker/README.md"
+    },
+    {
+      "id": "water-tracker",
+      "title": "Water tracker",
+      "summary": "Mark 250 ml glasses and see progress against a sample two-liter goal.",
+      "category": "Personal Productivity",
+      "status": "listed",
+      "features": [
+        "Mark 250 ml glasses and see progress against a sample two-liter goal.",
+        "Session-only; edit the sample goal in the source."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/water-tracker/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/water-tracker/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/water-tracker/README.md"
+    },
+    {
+      "id": "keyboard-inspector",
+      "title": "Keyboard event inspector",
+      "summary": "Inspect browser key, code and legacy keyCode fields for the focused page.",
+      "category": "Prototypes",
+      "status": "listed",
+      "features": [
+        "Inspect browser key, code and legacy keyCode fields for the focused page.",
+        "Page-local keyboard events only; no background key capture or storage."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/keyboard-inspector/",
+      "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/keyboard-inspector/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/keyboard-inspector/README.md"
+    },
+    {
+      "id": "kanban-board",
+      "title": "Kanban board",
+      "summary": "Create, edit, move, reorder and delete tasks across three browser-local columns.",
+      "category": "Operations",
+      "status": "listed",
+      "features": [
+        "Create, edit, move, reorder and delete tasks across three browser-local columns.",
+        "Stored on this browser only; no accounts, cloud sync or collaboration."
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/kanban-board/",
+      "repositoryUrl": "https://github.com/dcode-youtube/kanban-board",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/kanban-board/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/kanban-board/README.md"
     }
   ]
 }

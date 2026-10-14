@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"><title>Calendar date picker</title><meta name="lyre-marketplace-demo" content="date-picker"><link rel="stylesheet" href="lyre.css"><script src="lyre.js" type="module"></script></head>
+  <body><header class="lyre-heading"><h1>Calendar date picker</h1><p>Browse months and years, choose a date and return to today.</p><p>A date picker starter; no events, scheduling or persistence.</p></header><div class="lyre-status" role="status"></div>
+    <div class="container text-center">
+      <div class="calendar">
+        <div class="controls">
+          <button class="prev" aria-label="Previous month">&lt;</button>
+          <select class="month" aria-label="Month"></select>
+          <select class="year" aria-label="Year"></select>
+          <button class="next" aria-label="Next month">&gt;</button>
+        </div>
+        <div class="week-days"></div>
+        <div class="days"></div>
+        <button class="btn btn-primary btn-today">Today</button>
+        <p class="selected-date"></p>
+      </div>
+    </div>
+
+    <template class="calendar-template"> </template>
+  </body>
+</html>

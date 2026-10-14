@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="style.css" />
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1"><title>Choice picker</title><meta name="lyre-marketplace-demo" content="choice-picker"><link rel="stylesheet" href="lyre.css"><script src="lyre.js" type="module"></script></head>
+  <body><header class="lyre-heading"><h1>Choice picker</h1><p>Enter a comma-separated list and pick one of the choices at random.</p><p>For casual choices; not cryptographic or audited random selection.</p></header><div class="lyre-status" role="status"></div>
+    <div class="container">
+      <h3>Enter all of the choices divided by a comma (','). <br> Press enter when you're done</h3>
+      <textarea placeholder="Enter choices here..." id="textarea"></textarea>
+
+      <button type="button" id="pick">Pick a choice</button><div id="tags"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

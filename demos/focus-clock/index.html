@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="./style.css" rel="stylesheet" />
+    
+    <script src="./index.js" type="module"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><title>Focus clock</title><meta name="lyre-marketplace-demo" content="focus-clock"><link rel="stylesheet" href="lyre.css"><script src="lyre.js" type="module"></script></head>
+
+  <body><header class="lyre-heading"><h1>Focus clock</h1><p>Adjust focus and break lengths, run a session, pause and reset.</p><p>Silent timer; browser background timing can drift; no notifications.</p></header><div class="lyre-status" role="status"></div>
+    <main>
+      <div class="controller-wrapper">
+        <div>
+          <h4>Break length</h4>
+          <div class="controller">
+            <p class="time-control" id="breaklen"></p>
+            <div class="button-wrapper">
+              <button class="duration-button" data-target="break" data-direction="up" aria-label="up break length">
+                <span aria-hidden="true">+</span>
+              </button>
+              <button class="duration-button" data-target="break" data-direction="down" aria-label="down break length">
+                <span aria-hidden="true">−</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>Session Length</h4>
+          <div class="controller">
+            <p class="time-control" id="sesslen"></p>
+            <div class="button-wrapper">
+              <button class="duration-button" data-target="session" data-direction="up" aria-label="up session length">
+                <span aria-hidden="true">+</span>
+              </button>
+              <button class="duration-button" data-target="session" data-direction="down" aria-label="down session length">
+                <span aria-hidden="true">−</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timer-wrapper">
+        <h3 class="timer-header"></h3>
+        <p class="time"><span id="minute"></span><span>:</span><span id="second"></span></p>
+        <div class="timer-display">
+          <button id="play" aria-label="Start or pause timer">
+            <span id="playicon" class="fas fa-play"></span>
+          </button>
+          <button id="reset" aria-label="Reset timer">
+            ↺
+          </button>
+        </div>
+      </div>
+    </main>
+    
+  </body>
+</html>

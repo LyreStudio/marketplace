@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"><title>Countdown timer</title><meta name="lyre-marketplace-demo" content="countdown-timer"><link rel="stylesheet" href="lyre.css"><script src="lyre.js" type="module"></script></head>
+  <body><header class="lyre-heading"><h1>Countdown timer</h1><p>Set minutes and seconds, start, pause and reset a local countdown.</p><p>Runs while the page is active; browser background timing can drift.</p></header><div class="lyre-status" role="status"></div>
+    <div class="container text-center">
+      <div class="display" id="display">
+        <span>:</span>
+        <input type="text" id="minMSB" aria-label="Minutes tens" inputmode="numeric" maxlength="1" value="0" />
+        <input type="text" id="minLSB" aria-label="Minutes ones" inputmode="numeric" maxlength="1" value="1" />
+        <input type="text" id="secMSB" aria-label="Seconds tens" inputmode="numeric" maxlength="1" value="0" />
+        <input type="text" id="secLSB" aria-label="Seconds ones" inputmode="numeric" maxlength="1" value="5" />
+      </div>
+      <div id="controls">
+        <button class="btn btn-primary" id="start">Start</button>
+        <button class="btn btn-primary" id="stop" disabled>Stop</button>
+        <button class="btn btn-primary" id="reset">Reset</button>
+      </div>
+
+      <p>Please enter a valid time in <strong>MM:SS</strong></p>
+    </div>
+  </body>
+</html>
