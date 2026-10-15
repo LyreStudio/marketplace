@@ -1,8 +1,36 @@
-# Validation — upstream adapters, 2026-10-14
+# Marketplace validation — 2026-10-14
+
+## Play Bootstrap follow-up
+
+Revision `2026101404` adds one project: 37 v4 listings, 34 prepared MIT projects,
+36 compatible v3 listings and three-entry v1/v2 feeds. Play's immutable adapter/screenshot/setup
+commit is `80c93e060ac4bb0b04abb3f4da93176fa1d8e22e`. It has one ready ZIP in release `templates-20261014.2`.
+The previous 33 adapter and archive pins remain unchanged.
+
+Play preserves all eight upstream pages and the exact UIdeck MIT notice. Uncertain
+third-party photography, branding and illustration are replaced with owned SVG
+samples. The prepared project includes Bootstrap 5.1.0 CSS with its full MIT notice;
+Bootstrap JavaScript/Popper, WOW/animate, LineIcons and remote font downloads are
+excluded. The recorded exact-version OSV lookup returned no matches; the review
+scopes that result to the shipped CSS rather than auditing an excluded package tree.
+
+Pinned original downloads, patch/output integrity, new-directory protections,
+server private-path/method denials, actual wide/compact sandbox interactions and
+settled screenshots are qualified per the source-bound [review](https://github.com/LyreStudio/marketplace/blob/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/SECURITY-REVIEW.md).
+Contact/newsletter/login feedback is local sample behavior with no backend.
+The actual previously compiled v3 reader accepts the complete unchanged 36-entry
+projection. New readers use v4→v3→v2→v1 only for authentic 404s; malformed data never
+authorizes downgrade. Coordinator receipts record production extraction/public-source parity, real
+installation, catalog/types/main checks, gallery and exact public content. Source,
+browser emulation, rebuilt feature and native/physical acceptance remain distinct.
+No signed Lyre release or OS sandbox is claimed. See the current Lyre implementation
+record and ledger for every attempt, hash, duration and publication receipt.
+
+## Prior 33-project qualification (retained inputs)
 
 This increment migrates twelve previously prepared MIT projects to original pinned
 upstream source plus central adapters and adds 21 functional browser projects.
-Current revision is `2026101403`: 36 v3 listings, three v2 and three v1.
+That batch revision was `2026101403`: 36 v3 listings, three v2 and three v1.
 Immutable adapter, setup and image commit: `172321eac6e018088d98160a21996435247c1638`.
 
 ## Per-project acceptance

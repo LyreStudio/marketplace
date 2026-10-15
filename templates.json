@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 2026101403,
+  "revision": 2026101404,
   "adapterCommit": "172321eac6e018088d98160a21996435247c1638",
   "releaseTag": "templates-20261014.1",
   "templates": [
@@ -2028,6 +2028,116 @@
       "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/kanban-board.zip",
       "sha256": "e9a2550f32b966164a17d86562637891890800eb6bf9d86a76056f027369d727",
       "bytes": 15118
+    },
+    {
+      "id": "play-bootstrap",
+      "title": "Play startup website",
+      "summary": "An eight-page startup/SaaS static website with pricing, FAQ, blog and sample contact/login UI.",
+      "category": "Client Tools",
+      "status": "listed",
+      "features": [
+        "Landing, about, pricing, blog and article pages",
+        "Responsive navigation and expandable FAQ",
+        "Sample contact/login/newsletter; no backend"
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/play-bootstrap/",
+      "repositoryUrl": "https://github.com/uideck/play-bootstrap",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/images/play-bootstrap/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/README.md",
+      "upstreamCommit": "96e57206252039b92ea5bfe84c71fbfd0c29a19c",
+      "cloneUrl": "https://github.com/uideck/play-bootstrap.git",
+      "sourceFiles": [
+        {
+          "path": "404.html",
+          "sourcePath": "404.html",
+          "sha256": "9f6c4b28631d560b5262623c9a127a513a9f6e33fbb015f34827f72aa516437a",
+          "bytes": 14496
+        },
+        {
+          "path": "LICENSE",
+          "sourcePath": "LICENCE",
+          "sha256": "7379f9c19906d396d7fffe5bb17cc993e678703d80a4649dd9bc87686b98c884",
+          "bytes": 1063
+        },
+        {
+          "path": "UPSTREAM-README.md",
+          "sourcePath": "README.md",
+          "sha256": "3a12e779b0a33f8805b1578b905577bd5cb65e57f3cecc8f3efe3be488f96750",
+          "bytes": 1490
+        },
+        {
+          "path": "about.html",
+          "sourcePath": "about.html",
+          "sha256": "4b6b008f9a229a01385611826759dddfebbe5a95ea5b687ee75f86c0bf83349b",
+          "bytes": 21330
+        },
+        {
+          "path": "assets/css/bootstrap.min.css",
+          "sourcePath": "assets/css/bootstrap.min.css",
+          "sha256": "cfc391e34328c09f0680ae8ff3d63e86224ae7e71c973147ccb84540b2fdd9b8",
+          "bytes": 162720
+        },
+        {
+          "path": "assets/css/ud-styles.css",
+          "sourcePath": "assets/css/ud-styles.css",
+          "sha256": "22d7b4065d113f10bfa4225f11cd6758269cbfa35207f49994bb7401d8d08bb2",
+          "bytes": 49342
+        },
+        {
+          "path": "assets/js/main.js",
+          "sourcePath": "assets/js/main.js",
+          "sha256": "64c4af15099f0b54b7c8173338f509ead8a0d1d4b44a3be95eac118e333bb1e7",
+          "bytes": 2626
+        },
+        {
+          "path": "blog-details.html",
+          "sourcePath": "blog-details.html",
+          "sha256": "e6a0c372fde8fd46445998cdd0028c1f234e7d09d060454ae8bccc100c5776ba",
+          "bytes": 26645
+        },
+        {
+          "path": "blog.html",
+          "sourcePath": "blog.html",
+          "sha256": "030c27a4d1af2f3fcaf91023ceaa30026dc2fe556062c72ee2ac12dbaf63bb55",
+          "bytes": 21142
+        },
+        {
+          "path": "contact.html",
+          "sourcePath": "contact.html",
+          "sha256": "cf049c1683bed41e64cb49fc7ff2968e8d43aea7085b3d4cc5a4adc66cc0e931",
+          "bytes": 16684
+        },
+        {
+          "path": "index.html",
+          "sourcePath": "index.html",
+          "sha256": "c51b227ad05ab24efbee9e4bf7499b77bc56e9b9013c60689723079bb7aa44c3",
+          "bytes": 48593
+        },
+        {
+          "path": "login.html",
+          "sourcePath": "login.html",
+          "sha256": "5263f03efa21dfe673bdac656f6377e3396ed9ab434b37bec5fb82ca600c1c19",
+          "bytes": 15633
+        },
+        {
+          "path": "pricing.html",
+          "sourcePath": "pricing.html",
+          "sha256": "11c2d49e1ee71dabca92f082cb392a7cbce7f1a10c294624f226816c2e979e13",
+          "bytes": 24352
+        }
+      ],
+      "adapterUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/adapter.json",
+      "adapterSha256": "4a45caa374288bd4d4ccf3c0931c7798a08f62a297646e2ca881534adbcb6184",
+      "adapterBytes": 186318,
+      "adapterCommit": "80c93e060ac4bb0b04abb3f4da93176fa1d8e22e",
+      "releaseTag": "templates-20261014.2",
+      "securityReviewUrl": "https://github.com/LyreStudio/marketplace/blob/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/SECURITY-REVIEW.md",
+      "securityStatus": "reviewed-with-notes",
+      "downloadUrl": "https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.2/play-bootstrap.zip",
+      "sha256": "4684c7ec1c44ddb99e48d7f5bb011dab374d9221c47a5523f573f86808c2028c",
+      "bytes": 90784
     }
   ]
 }

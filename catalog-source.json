@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2026101403,
+  "revision": 2026101404,
   "offerings": [
     {
       "id": "stockroom",
@@ -66,9 +66,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/agency-site/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-agency",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/agency-site/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/agency-site/README.md"
     },
     {
@@ -84,9 +84,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/freelancer-portfolio/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-freelancer",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/freelancer-portfolio/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/freelancer-portfolio/README.md"
     },
     {
@@ -102,9 +102,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/creative-site/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-creative",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/creative-site/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/creative-site/README.md"
     },
     {
@@ -120,9 +120,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/resume-site/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-resume",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/resume-site/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/resume-site/README.md"
     },
     {
@@ -138,9 +138,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/clean-blog/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-clean-blog",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/clean-blog/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/clean-blog/README.md"
     },
     {
@@ -156,9 +156,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/business-frontpage/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-business-frontpage",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/business-frontpage/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/business-frontpage/README.md"
     },
     {
@@ -174,9 +174,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/shop-homepage/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-shop-homepage",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/shop-homepage/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/shop-homepage/README.md"
     },
     {
@@ -192,9 +192,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/admin-dashboard/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-sb-admin",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/admin-dashboard/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/admin-dashboard/README.md"
     },
     {
@@ -210,9 +210,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/landing-page/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-landing-page",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/landing-page/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/landing-page/README.md"
     },
     {
@@ -228,9 +228,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/grayscale-site/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/StartBootstrap/startbootstrap-grayscale",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/grayscale-site/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/grayscale-site/README.md"
     },
     {
@@ -246,9 +246,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/todo-list/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/todo-list/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/todo-list/README.md"
     },
     {
@@ -264,9 +264,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/drawing-app/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/drawing-app/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/templates/drawing-app/README.md"
     },
     {
@@ -281,9 +281,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/basic-calculator/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/basic-calculator/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/basic-calculator/README.md"
     },
     {
@@ -298,9 +298,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/bill-splitter/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/bill-splitter/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/bill-splitter/README.md"
     },
     {
@@ -315,9 +315,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/finance-tracker/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/finance-tracker/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/finance-tracker/README.md"
     },
     {
@@ -332,9 +332,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/countdown-timer/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/countdown-timer/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/countdown-timer/README.md"
     },
     {
@@ -349,9 +349,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/text-transformer/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/text-transformer/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/text-transformer/README.md"
     },
     {
@@ -366,9 +366,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/typing-practice/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/typing-practice/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/typing-practice/README.md"
     },
     {
@@ -383,9 +383,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/tic-tac-toe/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/tic-tac-toe/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/tic-tac-toe/README.md"
     },
     {
@@ -400,9 +400,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/connect-four/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/connect-four/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/connect-four/README.md"
     },
     {
@@ -417,9 +417,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/memory-pairs/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/memory-pairs/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/memory-pairs/README.md"
     },
     {
@@ -434,9 +434,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/color-spotter/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/color-spotter/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/color-spotter/README.md"
     },
     {
@@ -451,9 +451,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/pixel-art/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/pixel-art/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/pixel-art/README.md"
     },
     {
@@ -468,9 +468,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/focus-clock/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/focus-clock/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/focus-clock/README.md"
     },
     {
@@ -485,9 +485,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/date-picker/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/date-picker/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/date-picker/README.md"
     },
     {
@@ -502,9 +502,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/json-builder/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/json-builder/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/json-builder/README.md"
     },
     {
@@ -519,9 +519,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/number-guess/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/number-guess/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/number-guess/README.md"
     },
     {
@@ -536,9 +536,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/phone-formatter/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/sadanandpai/frontend-mini-challenges",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/phone-formatter/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/phone-formatter/README.md"
     },
     {
@@ -553,9 +553,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/web-quiz/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/web-quiz/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/web-quiz/README.md"
     },
     {
@@ -570,9 +570,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/choice-picker/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/choice-picker/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/choice-picker/README.md"
     },
     {
@@ -587,9 +587,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/water-tracker/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/water-tracker/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/water-tracker/README.md"
     },
     {
@@ -604,9 +604,9 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/keyboard-inspector/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/bradtraversy/50projects50days",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/keyboard-inspector/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/keyboard-inspector/README.md"
     },
     {
@@ -621,10 +621,28 @@
       ],
       "kind": "template",
       "previewUrl": "https://lyrestudio.github.io/marketplace/demos/kanban-board/",
+      "license": "MIT",
       "repositoryUrl": "https://github.com/dcode-youtube/kanban-board",
       "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/172321eac6e018088d98160a21996435247c1638/images/kanban-board/desktop.png",
-      "license": "MIT",
       "setupUrl": "https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/kanban-board/README.md"
+    },
+    {
+      "id": "play-bootstrap",
+      "title": "Play startup website",
+      "summary": "An eight-page startup/SaaS static website with pricing, FAQ, blog and sample contact/login UI.",
+      "category": "Client Tools",
+      "status": "listed",
+      "features": [
+        "Landing, about, pricing, blog and article pages",
+        "Responsive navigation and expandable FAQ",
+        "Sample contact/login/newsletter; no backend"
+      ],
+      "kind": "template",
+      "previewUrl": "https://lyrestudio.github.io/marketplace/demos/play-bootstrap/",
+      "repositoryUrl": "https://github.com/uideck/play-bootstrap",
+      "imageUrl": "https://raw.githubusercontent.com/LyreStudio/marketplace/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/images/play-bootstrap/desktop.png",
+      "license": "MIT",
+      "setupUrl": "https://github.com/LyreStudio/marketplace/blob/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/README.md"
     }
   ]
 }

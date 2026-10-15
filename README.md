@@ -2,8 +2,8 @@
 
 [Browse and preview projects](https://lyrestudio.github.io/marketplace/).
 
-The current catalog contains **36 projects**: three original browser apps and
-33 MIT projects prepared from their original upstream sources. The shared
+The current catalog contains **37 projects**: three original browser apps and
+34 MIT projects prepared from their original upstream sources. The shared
 `adapters/` directory holds Lyre configuration, reviewed patches, local preview
 tools and owned sample assets. A separate repository per template is unnecessary.
 Prepared source is generated for demos and ZIP downloads; it is not an upstream fork.
@@ -78,13 +78,14 @@ See [adapter format and boundaries](adapters/FORMAT.md).
 | [Water tracker](https://lyrestudio.github.io/marketplace/demos/water-tracker/) | [bradtraversy/50projects50days](https://github.com/bradtraversy/50projects50days) | [ZIP](https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/water-tracker.zip) · [Setup](https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/water-tracker/README.md) · [Review](https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/water-tracker/SECURITY-REVIEW.md) |
 | [Keyboard event inspector](https://lyrestudio.github.io/marketplace/demos/keyboard-inspector/) | [bradtraversy/50projects50days](https://github.com/bradtraversy/50projects50days) | [ZIP](https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/keyboard-inspector.zip) · [Setup](https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/keyboard-inspector/README.md) · [Review](https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/keyboard-inspector/SECURITY-REVIEW.md) |
 | [Kanban board](https://lyrestudio.github.io/marketplace/demos/kanban-board/) | [dcode-youtube/kanban-board](https://github.com/dcode-youtube/kanban-board) | [ZIP](https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.1/kanban-board.zip) · [Setup](https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/kanban-board/README.md) · [Review](https://github.com/LyreStudio/marketplace/blob/172321eac6e018088d98160a21996435247c1638/adapters/community/kanban-board/SECURITY-REVIEW.md) |
+| [Play startup website](https://lyrestudio.github.io/marketplace/demos/play-bootstrap/) | [uideck/play-bootstrap](https://github.com/uideck/play-bootstrap) | [ZIP](https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.2/play-bootstrap.zip) · [Setup](https://github.com/LyreStudio/marketplace/blob/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/README.md) · [Review](https://github.com/LyreStudio/marketplace/blob/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/SECURITY-REVIEW.md) |
 
 The gallery also retains its existing browser apps and mobile-source/store links.
 Mobile screenshots and source availability do not establish Lyre physical-device acceptance.
 
 ## Security review and publication
 
-All 36 listed projects have source-bound basic security reviews. Each of the 33
+All 37 listed projects have source-bound basic security reviews. Each of the 34
 prepared projects links its adapter review. Reviews
 cover applicable licenses, source integrity, executable setup, dependencies,
 outbound requests, unsafe input/DOM patterns, storage/credentials and public-file
@@ -96,9 +97,10 @@ known OSV matches at the recorded query time. Fonts and other external resources
 future dependency vulnerabilities and Node updates retain their own risks.
 These basic scans are not comprehensive security audits or guarantees.
 
-`catalog-v3.json` carries all 36 current listings at revision `2026101403`.
+`catalog-v4.json` carries all 37 current listings at revision `2026101404`.
 Compatible `catalog-v1.json` and `catalog-v2.json` retain Stockroom, Project Desk and
-Daybook with their existing URL shapes. New readers fall back only on authentic
+Daybook with their existing URL shapes. V3 retains 36 existing listings so its earlier readers never receive unsupported
+UIdeck links. New readers try v4→v3→v2→v1 only on authentic
 missing-endpoint responses. The publication never supplies executable setup.
 
 `templates.json` records upstream files, immutable adapter pins and ready-to-use
@@ -128,3 +130,24 @@ The twelve duplicate source repositories have verified backups and published
 central replacements. Retirement was attempted after cutover; all twelve DELETE
 requests returned GitHub HTTP 403, missing `delete_repo` scope. **Zero repositories
 were deleted.** The current links use original upstream sources and central assets.
+
+## Play Bootstrap follow-up
+
+[Play startup website](https://lyrestudio.github.io/marketplace/demos/play-bootstrap/) adds UIdeck's MIT eight-page startup/SaaS site,
+including pricing, blog, contact and sample login UI. The prepared version uses
+local Bootstrap 5.1.0 CSS, owned sample artwork and fonts already on the device.
+Contact, newsletter and login controls validate sample input and show local feedback;
+they do not send messages, create accounts or provide payment services.
+
+[Download the ready project](https://github.com/LyreStudio/marketplace/releases/download/templates-20261014.2/play-bootstrap.zip) or run
+`node adapters/runtime.mjs prepare play-bootstrap <new-directory>` from this repository.
+Its [basic review](https://github.com/LyreStudio/marketplace/blob/80c93e060ac4bb0b04abb3f4da93176fa1d8e22e/adapters/community/play-bootstrap/SECURITY-REVIEW.md) covers pinned sources, licenses,
+actually included dependencies, outbound requests and server/input boundaries.
+
+The new adapter pins `80c93e060ac4bb0b04abb3f4da93176fa1d8e22e` and has a separate one-project release,
+`templates-20261014.2`. Existing 33 source, adapter, setup, image and archive pins
+remain unchanged. In `templates.json`, each full URL is authoritative; optional
+per-entry `adapterCommit`/`releaseTag` override the retained original-batch defaults.
+The v4 catalog is revision `2026101404` with 37 listings. Compatible v3 retains the
+previous 36 listings; v1/v2 still project three.
+Guided installation requires a Lyre build containing the new compiled recipe.
