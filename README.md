@@ -84,7 +84,8 @@ Mobile screenshots and source availability do not establish Lyre physical-device
 
 ## Security review and publication
 
-Every one of these 33 adapters has a source-bound basic security review. Reviews
+All 36 listed projects have source-bound basic security reviews. Each of the 33
+prepared projects links its adapter review. Reviews
 cover applicable licenses, source integrity, executable setup, dependencies,
 outbound requests, unsafe input/DOM patterns, storage/credentials and public-file
 boundaries. Findings and mitigations are linked per project. Chart.js 2.8.0 in the
@@ -108,3 +109,22 @@ local records or `node verify.mjs --online` for live demos, adapter bytes and ZI
 
 Research: [initial source review](research/free-template-sources-20261014.md) and
 [21-project expansion, fixes and holds](research/mit-expansion-20261014.md).
+
+## Original browser app reviews
+
+[Stockroom](reviews/stockroom.md), [Project Desk](reviews/project-desk.md) and
+[Daybook](reviews/daybook.md) were reviewed against their exact compiled source
+archives. No critical or high issue was identified by the basic checks. Their
+vendored Tabler 1.5.1 CSS has a separate scoped advisory record.
+
+These three original apps have an existing limitation in Lyre's web iframe: Save
+uses native form submission and destructive actions use native confirmation, which
+the unchanged sandbox blocks. Open their standalone browser sites for those actions.
+The reviews also record conditional development-server symlink hardening and
+plaintext browser/backups. No source was changed; these limits do not qualify as
+functional sandbox passes. The 33 prepared projects have their own functional checks.
+
+The twelve duplicate source repositories have verified backups and published
+central replacements. Retirement was attempted after cutover; all twelve DELETE
+requests returned GitHub HTTP 403, missing `delete_repo` scope. **Zero repositories
+were deleted.** The current links use original upstream sources and central assets.

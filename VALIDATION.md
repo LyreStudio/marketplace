@@ -40,22 +40,22 @@ at query time. The dependency-free projects have no package/CDN advisory set.
   selected-input fallback is real. All screenshots were reviewed.
 - Architecture pass is reused from the migration's unchanged module boundaries.
 
-The local Lyre workspace's broader provenance check currently reports unrelated
-agent-panel/Subagents adaptation hashes, and its full app type check reports
-unrelated age-assurance errors. These are retained failures, not passing aggregate
-release gates. Marketplace scope, public content and desktop feature checks are
-recorded separately in Lyre's running ledger.
+The running Lyre ledger retains earlier concurrent-work provenance and app-type
+failures, fixes and later integrated results separately. Focused Marketplace passes
+never establish an aggregate release or installed-device gate.
 
 ## Publication and limits
 
-The coordinator verifies committed live feed/site bytes, all 36 demos, all 33
+The coordinator verified committed live feed/site bytes, all 36 demo responses, all 33
 ready-to-use release ZIP hashes and immutable adapter bytes after publication.
-The rebuilt Electron bridge must read the live v3 catalog/eligible recipes and
-retain foreign-window denial. Publication/deletion receipts live with the Lyre
+The rebuilt Electron bridge reads the live 36-entry v3 catalog and eligible recipes
+and retains foreign-window denial. All 33 actual public demos load in the unchanged
+web sandbox, with four representative hosted functional interactions (12.267s). Publication/deletion receipts live with the Lyre
 implementation evidence; `node verify.mjs --online` rechecks public artifacts.
 
-Twelve duplicate repositories are retirement targets only after verified central
-replacement and preserved git bundles/metadata. Existing local work and the three
+Twelve duplicate repositories have verified central replacements and preserved
+git bundles/metadata. Authorized retirement was attempted once; all twelve GitHub
+DELETE requests returned HTTP 403 for missing `delete_repo` scope. Zero were deleted. Existing local work and the three
 original browser-app repositories are preserved. Historical standalone repository
 URLs are replaced by central previews/downloads and original upstream source links.
 
@@ -64,3 +64,20 @@ device, complete dependency audit, production authentication/email/checkout or
 vulnerability-free certification is claimed. The marketplace origin is shared;
 storage namespaces prevent collisions, not same-origin access by modified code.
 New guided recipes require a Lyre app build containing the compiled pins.
+
+## Original three apps: basic review and existing limits
+
+Exact pinned archives for [Stockroom](reviews/stockroom.md),
+[Project Desk](reviews/project-desk.md) and [Daybook](reviews/daybook.md) were acquired
+and hash-checked. Fifteen existing model tests, public-byte/private-path/method
+denials and focused browser input/import/storage checks pass. The CSS-only
+`@tabler/core` 1.5.1 artifact has a scoped OSV no-match receipt; this does not audit
+the excluded upstream build tree or infer an unstamped Bootstrap component version.
+
+No critical/high issue was identified. Existing findings remain disclosed: native
+Save and confirmation actions fail in Lyre's restricted web iframe; an allowed
+filename replaced locally by a symlink could expose its target through the development
+server; storage/backups are plaintext and explicit HOST override can expose the static
+server. No symlinks or remote write endpoints occur in the reviewed archives. Sources
+and sandbox permissions remain unchanged. Standalone/local checks are not promoted to
+restricted-preview usability. The 33 prepared projects' functional acceptance is separate.
